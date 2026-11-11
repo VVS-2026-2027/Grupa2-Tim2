@@ -1,0 +1,457 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HealthZone
+build_property.RootNamespace = HealthZone
+build_property.ProjectDir = C:\Users\DT User\Desktop\OOAD\Grupa6-Tim4\HealthZone\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\DT User\Desktop\OOAD\Grupa6-Tim4\HealthZone
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Home/MedicinskoOsoblje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZWRpY2luc2tvT3NvYmxqZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/KorisnikNaListi/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtOYUxpc3RpXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/KorisnikNaListi/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtOYUxpc3RpXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/KorisnikNaListi/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtOYUxpc3RpXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/KorisnikNaListi/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtOYUxpc3RpXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/KorisnikNaListi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtOYUxpc3RpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Korisnik/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Korisnik/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Korisnik/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Korisnik/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Korisnik/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29yaXNuaWtcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/ListaCekanja/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFDZWthbmphXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/ListaCekanja/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFDZWthbmphXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/ListaCekanja/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFDZWthbmphXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/ListaCekanja/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFDZWthbmphXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/ListaCekanja/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFDZWthbmphXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/ListaCekanja/Pregled.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFDZWthbmphXFByZWdsZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/MedicinskaUsluga/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbnNrYVVzbHVnYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/MedicinskaUsluga/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbnNrYVVzbHVnYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/MedicinskaUsluga/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbnNrYVVzbHVnYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/MedicinskaUsluga/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbnNrYVVzbHVnYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/MedicinskaUsluga/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNpbnNrYVVzbHVnYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Nalaz/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFsYXpcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Nalaz/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFsYXpcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Nalaz/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFsYXpcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Nalaz/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFsYXpcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Nalaz/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFsYXpcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Nalaz/MedicinskiKarton.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFsYXpcTWVkaWNpbnNraUthcnRvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Nalaz/Print.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFsYXpcUHJpbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Nalaz/PrintanjeNalaza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFsYXpcUHJpbnRhbmplTmFsYXphLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Notifikacija/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpa2FjaWphXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Notifikacija/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpa2FjaWphXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Notifikacija/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpa2FjaWphXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Notifikacija/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpa2FjaWphXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Notifikacija/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpa2FjaWphXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Recenzija/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZW56aWphXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Recenzija/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZW56aWphXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Recenzija/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZW56aWphXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Recenzija/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZW56aWphXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Recenzija/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZW56aWphXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Recenzija/MojeRecenzije.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZW56aWphXE1vamVSZWNlbnppamUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Recenzija/RecenzijeDoktora.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZW56aWphXFJlY2VuemlqZURva3RvcmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Termin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Termin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Termin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Termin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Termin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Termin/MojiPacijenti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluXE1vamlQYWNpamVudGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Termin/PromijeniPrioritet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluXFByb21pamVuaVByaW9yaXRldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Termin/TerminOtkazan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluXFRlcm1pbk90a2F6YW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Termin/TerminPotvrdjen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVybWluXFRlcm1pblBvdHZyZGplbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/ZahtjevZaOpremu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFodGpldlphT3ByZW11XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/ZahtjevZaOpremu/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFodGpldlphT3ByZW11XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/ZahtjevZaOpremu/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFodGpldlphT3ByZW11XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/ZahtjevZaOpremu/Dokumentacija.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFodGpldlphT3ByZW11XERva3VtZW50YWNpamEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/ZahtjevZaOpremu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFodGpldlphT3ByZW11XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/ZahtjevZaOpremu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFodGpldlphT3ByZW11XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DT User/Desktop/OOAD/Grupa6-Tim4/HealthZone/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-icszkamklc

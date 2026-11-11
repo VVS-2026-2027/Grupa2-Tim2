@@ -1,0 +1,1844 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\models\\korisniknalisti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:models\\korisniknalisti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\home\\medicinskoosoblje.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\home\\medicinskoosoblje.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\controllers\\recenzijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:controllers\\recenzijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\zahtjevzaopremu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\zahtjevzaopremu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\controllers\\zahtjevzaopremucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:controllers\\zahtjevzaopremucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\healthzone.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:healthzone.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\models\\zahtjevzaopremu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:models\\zahtjevzaopremu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\controllers\\notifikacijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:controllers\\notifikacijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\notifikacijaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\notifikacijaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\controllers\\medicinskauslugacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:controllers\\medicinskauslugacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\termin\\terminotkazan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\termin\\terminotkazan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\models\\medicinskausluga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:models\\medicinskausluga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\korisnik\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\korisnik\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\controllers\\nalazcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:controllers\\nalazcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\nalaz\\print.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\nalaz\\print.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\zahtjevzaopremu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\zahtjevzaopremu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\zahtjevzaopremu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\zahtjevzaopremu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\zahtjevzaopremu\\dokumentacija.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\zahtjevzaopremu\\dokumentacija.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\zahtjevzaopremu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\zahtjevzaopremu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\korisnik\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\korisnik\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\termin\\terminpotvrdjen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\termin\\terminpotvrdjen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\recenzijaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\recenzijaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\podsjetnikhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\podsjetnikhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\korisnik\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\korisnik\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\healthzone.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:healthzone.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\termin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\termin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\korisnik\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\korisnik\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\iterminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\iterminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\termin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\termin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\models\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:models\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\termin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\termin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\termin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\termin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\nalazservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\nalazservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\termin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\termin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\korisnik\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\korisnik\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\listacekanja\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\listacekanja\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\korisniknalisti\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\korisniknalisti\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\korisniknalistiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\korisniknalistiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\korisniknalisti\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\korisniknalisti\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\ikorisniknalistiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\ikorisniknalistiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\controllers\\korisniknalisticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:controllers\\korisniknalisticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\controllers\\listacekanjacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:controllers\\listacekanjacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\listacekanja\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\listacekanja\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\ilistacekanjaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\ilistacekanjaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\listacekanjaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\listacekanjaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\korisnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\korisnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\medicinskausluga\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\medicinskausluga\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\korisniknalisti\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\korisniknalisti\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\ikorisnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\ikorisnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DT User\\Downloads\\TerminController (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\termin\\promijeniprioritet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\termin\\promijeniprioritet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\termin\\mojipacijenti.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\termin\\mojipacijenti.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\recenzija\\recenzijedoktora.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\recenzija\\recenzijedoktora.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\recenzija\\mojerecenzije.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\recenzija\\mojerecenzije.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\recenzija\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\recenzija\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\recenzija\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\recenzija\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\recenzija\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\recenzija\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\recenzija\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\recenzija\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\recenzija\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\recenzija\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\notifikacija\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\notifikacija\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\notifikacija\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\notifikacija\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\notifikacija\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\notifikacija\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\notifikacija\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\notifikacija\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\notifikacija\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\notifikacija\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\nalaz\\printanjenalaza.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\nalaz\\printanjenalaza.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\nalaz\\medicinskikarton.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\nalaz\\medicinskikarton.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\nalaz\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\nalaz\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\nalaz\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\nalaz\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\nalaz\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\nalaz\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\nalaz\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\nalaz\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\medicinskausluga\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\medicinskausluga\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\medicinskausluga\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\medicinskausluga\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\medicinskausluga\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\medicinskausluga\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\listacekanja\\pregled.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\listacekanja\\pregled.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\listacekanja\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\listacekanja\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\listacekanja\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\listacekanja\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\listacekanja\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\listacekanja\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\korisniknalisti\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\korisniknalisti\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\korisniknalisti\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\korisniknalisti\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\repositories\\nalazrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:repositories\\nalazrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\inalazservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\inalazservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DT User\\Downloads\\TerminService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DT User\\Downloads\\ListaCekanjaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\repositories\\korisniknalistirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:repositories\\korisniknalistirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DT User\\Downloads\\Index (5).cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DT User\\Downloads\\KorisnikController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\areas\\identity\\pages\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:areas\\identity\\pages\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DT User\\Downloads\\NalazDetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\zahtjevzaopremuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\zahtjevzaopremuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\repositories\\zahtjevzaopremurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:repositories\\zahtjevzaopremurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\repositories\\recenzijarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:repositories\\recenzijarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\repositories\\terminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:repositories\\terminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\irecenzijaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\irecenzijaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DT User\\Downloads\\TerminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\repositories\\listacekanjarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:repositories\\listacekanjarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DT User\\Downloads\\ListaCekanjaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|c:\\users\\dt user\\desktop\\ooad\\grupa6-tim4\\healthzone\\services\\izahtjevzaopremuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2112BF-04C1-AD99-98C1-884303703546}|HealthZone.csproj|solutionrelative:services\\izahtjevzaopremuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ZahtjevZaOpremu.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Models\\ZahtjevZaOpremu.cs",
+              "RelativeDocumentMoniker": "Models\\ZahtjevZaOpremu.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Models\\ZahtjevZaOpremu.cs",
+              "RelativeToolTip": "Models\\ZahtjevZaOpremu.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:18:17.65Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Models\\Korisnik.cs",
+              "RelativeToolTip": "Models\\Korisnik.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T11:03:16.15Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KorisnikNaListi.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Models\\KorisnikNaListi.cs",
+              "RelativeDocumentMoniker": "Models\\KorisnikNaListi.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Models\\KorisnikNaListi.cs",
+              "RelativeToolTip": "Models\\KorisnikNaListi.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T08:56:44.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ZahtjevZaOpremu\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ZahtjevZaOpremu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ZahtjevZaOpremu\\Index.cshtml",
+              "RelativeToolTip": "Views\\ZahtjevZaOpremu\\Index.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAWwGMAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T11:10:04.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MedicinskoOsoblje.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Home\\MedicinskoOsoblje.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\MedicinskoOsoblje.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Home\\MedicinskoOsoblje.cshtml",
+              "RelativeToolTip": "Views\\Home\\MedicinskoOsoblje.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAmwF0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T15:32:25.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RecenzijaController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\RecenzijaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecenzijaController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\RecenzijaController.cs",
+              "RelativeToolTip": "Controllers\\RecenzijaController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAiwJgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T22:40:09.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAADwv34AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T22:26:15.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\appsettings.json*",
+              "RelativeToolTip": "appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-07T13:03:41.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ZahtjevZaOpremuController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\ZahtjevZaOpremuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ZahtjevZaOpremuController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\ZahtjevZaOpremuController.cs",
+              "RelativeToolTip": "Controllers\\ZahtjevZaOpremuController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAuwIwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T20:58:26.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACIBAAAAAAAAAAASwDMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-27T13:50:37.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Services\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\IEmailService.cs",
+              "RelativeToolTip": "Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T13:02:48.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NotifikacijaController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\NotifikacijaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotifikacijaController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\NotifikacijaController.cs",
+              "RelativeToolTip": "Controllers\\NotifikacijaController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T21:05:00.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NotifikacijaService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\NotifikacijaService.cs",
+              "RelativeDocumentMoniker": "Services\\NotifikacijaService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\NotifikacijaService.cs",
+              "RelativeToolTip": "Services\\NotifikacijaService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T19:18:35.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAADkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T13:03:08.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HealthZone.csproj",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\HealthZone.csproj",
+              "RelativeDocumentMoniker": "HealthZone.csproj",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\HealthZone.csproj",
+              "RelativeToolTip": "HealthZone.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-10T14:15:31.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MedicinskaUslugaController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\MedicinskaUslugaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MedicinskaUslugaController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\MedicinskaUslugaController.cs",
+              "RelativeToolTip": "Controllers\\MedicinskaUslugaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T13:45:08.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TerminOtkazan.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\TerminOtkazan.cshtml",
+              "RelativeDocumentMoniker": "Views\\Termin\\TerminOtkazan.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\TerminOtkazan.cshtml",
+              "RelativeToolTip": "Views\\Termin\\TerminOtkazan.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T19:51:18.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MedicinskaUsluga.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Models\\MedicinskaUsluga.cs",
+              "RelativeDocumentMoniker": "Models\\MedicinskaUsluga.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Models\\MedicinskaUsluga.cs",
+              "RelativeToolTip": "Models\\MedicinskaUsluga.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T16:01:08.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Korisnik\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Korisnik\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Korisnik\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Korisnik\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T12:01:26.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAPgBAAAAAAAAAAAiwAwCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-27T13:49:52.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Print.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\Print.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nalaz\\Print.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\Print.cshtml",
+              "RelativeToolTip": "Views\\Nalaz\\Print.cshtml",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAcwPEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T12:08:08.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NalazController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\NalazController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NalazController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\NalazController.cs",
+              "RelativeToolTip": "Controllers\\NalazController.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAqwOgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T21:04:07.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ZahtjevZaOpremu\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\ZahtjevZaOpremu\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ZahtjevZaOpremu\\Details.cshtml",
+              "RelativeToolTip": "Views\\ZahtjevZaOpremu\\Details.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAiwHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T11:09:32.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ZahtjevZaOpremu\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\ZahtjevZaOpremu\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ZahtjevZaOpremu\\Delete.cshtml",
+              "RelativeToolTip": "Views\\ZahtjevZaOpremu\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T16:09:41.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Dokumentacija.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ZahtjevZaOpremu\\Dokumentacija.cshtml",
+              "RelativeDocumentMoniker": "Views\\ZahtjevZaOpremu\\Dokumentacija.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ZahtjevZaOpremu\\Dokumentacija.cshtml",
+              "RelativeToolTip": "Views\\ZahtjevZaOpremu\\Dokumentacija.cshtml",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAcwBwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T16:09:51.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ZahtjevZaOpremu\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\ZahtjevZaOpremu\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ZahtjevZaOpremu\\Edit.cshtml",
+              "RelativeToolTip": "Views\\ZahtjevZaOpremu\\Edit.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAiwEIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T16:10:00.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Korisnik\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Korisnik\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Korisnik\\Details.cshtml",
+              "RelativeToolTip": "Views\\Korisnik\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T13:19:50.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "KorisnikController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\KorisnikController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KorisnikController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\KorisnikController.cs",
+              "RelativeToolTip": "Controllers\\KorisnikController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAuwMIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:23:54.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAqwAkBAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T13:40:23.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAuwH0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T13:36:48.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T13:52:42.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TerminPotvrdjen.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\TerminPotvrdjen.cshtml",
+              "RelativeDocumentMoniker": "Views\\Termin\\TerminPotvrdjen.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\TerminPotvrdjen.cshtml",
+              "RelativeToolTip": "Views\\Termin\\TerminPotvrdjen.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T00:25:29.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T15:51:59.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RecenzijaService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\RecenzijaService.cs",
+              "RelativeDocumentMoniker": "Services\\RecenzijaService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\RecenzijaService.cs",
+              "RelativeToolTip": "Services\\RecenzijaService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAUwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T20:55:51.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PodsjetnikHostedService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\PodsjetnikHostedService.cs",
+              "RelativeDocumentMoniker": "Services\\PodsjetnikHostedService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\PodsjetnikHostedService.cs",
+              "RelativeToolTip": "Services\\PodsjetnikHostedService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwF8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T21:26:29.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Korisnik\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Korisnik\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Korisnik\\Create.cshtml",
+              "RelativeToolTip": "Views\\Korisnik\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T13:18:58.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HealthZone",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\HealthZone.csproj",
+              "RelativeDocumentMoniker": "HealthZone.csproj",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\HealthZone.csproj",
+              "RelativeToolTip": "HealthZone.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-10T23:49:02.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Korisnik\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Korisnik\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Korisnik\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Korisnik\\Edit.cshtml",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAqwOcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T13:19:44.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Termin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Termin\\Index.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAuwHMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T14:56:26.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "enum.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Models\\enum.cs",
+              "RelativeDocumentMoniker": "Models\\enum.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Models\\enum.cs",
+              "RelativeToolTip": "Models\\enum.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:07:36.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Termin\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Termin\\Delete.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T16:08:58.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Termin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\Details.cshtml",
+              "RelativeToolTip": "Views\\Termin\\Details.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAowG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T16:09:04.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Termin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\Create.cshtml",
+              "RelativeToolTip": "Views\\Termin\\Create.cshtml",
+              "ViewState": "AgIAAIcBAAAAAAAAAAAqwJoBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T20:34:19.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABYBAAAAAAAAAAAqwDkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T13:37:50.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ITerminService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\ITerminService.cs",
+              "RelativeDocumentMoniker": "Services\\ITerminService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\ITerminService.cs",
+              "RelativeToolTip": "Services\\ITerminService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T20:59:36.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "NalazService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\NalazService.cs",
+              "RelativeDocumentMoniker": "Services\\NalazService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\NalazService.cs",
+              "RelativeToolTip": "Services\\NalazService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAzwC8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T21:40:39.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Termin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Termin\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T16:09:10.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\KorisnikNaListi\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\KorisnikNaListi\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\KorisnikNaListi\\Index.cshtml",
+              "RelativeToolTip": "Views\\KorisnikNaListi\\Index.cshtml",
+              "ViewState": "AgIAANYAAAAAAAAAAAAqwOkAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T11:17:17.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ListaCekanjaController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\ListaCekanjaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ListaCekanjaController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\ListaCekanjaController.cs",
+              "RelativeToolTip": "Controllers\\ListaCekanjaController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAqwLIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T22:06:45.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\KorisnikNaListi\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\KorisnikNaListi\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\KorisnikNaListi\\Delete.cshtml",
+              "RelativeToolTip": "Views\\KorisnikNaListi\\Delete.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T21:33:23.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "KorisnikNaListiController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\KorisnikNaListiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KorisnikNaListiController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\KorisnikNaListiController.cs",
+              "RelativeToolTip": "Controllers\\KorisnikNaListiController.cs",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAAAPYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T21:47:37.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "KorisnikNaListiService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\KorisnikNaListiService.cs",
+              "RelativeDocumentMoniker": "Services\\KorisnikNaListiService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\KorisnikNaListiService.cs",
+              "RelativeToolTip": "Services\\KorisnikNaListiService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwDgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T20:04:50.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ListaCekanja\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListaCekanja\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ListaCekanja\\Index.cshtml",
+              "RelativeToolTip": "Views\\ListaCekanja\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAuwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T11:19:32.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\MedicinskaUsluga\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\MedicinskaUsluga\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\MedicinskaUsluga\\Details.cshtml",
+              "RelativeToolTip": "Views\\MedicinskaUsluga\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T15:35:32.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Korisnik\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Korisnik\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Korisnik\\Index.cshtml",
+              "RelativeToolTip": "Views\\Korisnik\\Index.cshtml",
+              "ViewState": "AgIAACYBAAAAAAAAAAAAADQBAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T13:19:31.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "KorisnikService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\KorisnikService.cs",
+              "RelativeDocumentMoniker": "Services\\KorisnikService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\KorisnikService.cs",
+              "RelativeToolTip": "Services\\KorisnikService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:13:28.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IListaCekanjaService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\IListaCekanjaService.cs",
+              "RelativeDocumentMoniker": "Services\\IListaCekanjaService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\IListaCekanjaService.cs",
+              "RelativeToolTip": "Services\\IListaCekanjaService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T19:34:10.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IKorisnikNaListiService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\IKorisnikNaListiService.cs",
+              "RelativeDocumentMoniker": "Services\\IKorisnikNaListiService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\IKorisnikNaListiService.cs",
+              "RelativeToolTip": "Services\\IKorisnikNaListiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T20:04:42.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\KorisnikNaListi\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\KorisnikNaListi\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\KorisnikNaListi\\Create.cshtml",
+              "RelativeToolTip": "Views\\KorisnikNaListi\\Create.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T21:58:00.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ListaCekanja\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListaCekanja\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ListaCekanja\\Create.cshtml",
+              "RelativeToolTip": "Views\\ListaCekanja\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T22:06:21.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ListaCekanjaService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\ListaCekanjaService.cs",
+              "RelativeDocumentMoniker": "Services\\ListaCekanjaService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\ListaCekanjaService.cs",
+              "RelativeToolTip": "Services\\ListaCekanjaService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAWwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T14:13:48.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IKorisnikService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\IKorisnikService.cs",
+              "RelativeDocumentMoniker": "Services\\IKorisnikService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\IKorisnikService.cs",
+              "RelativeToolTip": "Services\\IKorisnikService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T21:06:45.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "MojeRecenzije.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\MojeRecenzije.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recenzija\\MojeRecenzije.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\MojeRecenzije.cshtml",
+              "RelativeToolTip": "Views\\Recenzija\\MojeRecenzije.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T22:38:46.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "TerminController (1).cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Downloads\\TerminController (1).cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\TerminController (1).cs",
+              "ToolTip": "C:\\Users\\DT User\\Downloads\\TerminController (1).cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\TerminController (1).cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAACoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T17:16:51.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "PromijeniPrioritet.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\PromijeniPrioritet.cshtml",
+              "RelativeDocumentMoniker": "Views\\Termin\\PromijeniPrioritet.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\PromijeniPrioritet.cshtml",
+              "RelativeToolTip": "Views\\Termin\\PromijeniPrioritet.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAswGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T16:51:33.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "MojiPacijenti.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\MojiPacijenti.cshtml",
+              "RelativeDocumentMoniker": "Views\\Termin\\MojiPacijenti.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Termin\\MojiPacijenti.cshtml",
+              "RelativeToolTip": "Views\\Termin\\MojiPacijenti.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T16:51:00.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recenzija\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\Index.cshtml",
+              "RelativeToolTip": "Views\\Recenzija\\Index.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAIAwwG0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T22:37:30.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recenzija\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Recenzija\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T09:53:42.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recenzija\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\Details.cshtml",
+              "RelativeToolTip": "Views\\Recenzija\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T16:08:23.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recenzija\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Recenzija\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T16:08:16.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Notifikacija\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Notifikacija\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Notifikacija\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Notifikacija\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T15:37:24.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Notifikacija\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Notifikacija\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Notifikacija\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Notifikacija\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T15:37:13.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "RecenzijeDoktora.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\RecenzijeDoktora.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recenzija\\RecenzijeDoktora.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\RecenzijeDoktora.cshtml",
+              "RelativeToolTip": "Views\\Recenzija\\RecenzijeDoktora.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T14:16:11.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Notifikacija\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Notifikacija\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Notifikacija\\Create.cshtml",
+              "RelativeToolTip": "Views\\Notifikacija\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T15:37:06.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nalaz\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Nalaz\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T15:36:18.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nalaz\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Nalaz\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T15:36:05.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\MedicinskaUsluga\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\MedicinskaUsluga\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\MedicinskaUsluga\\Edit.cshtml",
+              "RelativeToolTip": "Views\\MedicinskaUsluga\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T15:35:38.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "MedicinskiKarton.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\MedicinskiKarton.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nalaz\\MedicinskiKarton.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\MedicinskiKarton.cshtml",
+              "RelativeToolTip": "Views\\Nalaz\\MedicinskiKarton.cshtml",
+              "ViewState": "AgIAALQAAAAAAAAAAAAAAL8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T22:58:56.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Notifikacija\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Notifikacija\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Notifikacija\\Index.cshtml",
+              "RelativeToolTip": "Views\\Notifikacija\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T19:49:48.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Recenzija\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Recenzija\\Create.cshtml",
+              "RelativeToolTip": "Views\\Recenzija\\Create.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T22:37:49.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Notifikacija\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Notifikacija\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Notifikacija\\Details.cshtml",
+              "RelativeToolTip": "Views\\Notifikacija\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T19:49:49.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\MedicinskaUsluga\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\MedicinskaUsluga\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\MedicinskaUsluga\\Delete.cshtml",
+              "RelativeToolTip": "Views\\MedicinskaUsluga\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T15:35:28.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "PrintanjeNalaza.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\PrintanjeNalaza.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nalaz\\PrintanjeNalaza.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\PrintanjeNalaza.cshtml",
+              "RelativeToolTip": "Views\\Nalaz\\PrintanjeNalaza.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T19:18:33.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Pregled.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ListaCekanja\\Pregled.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListaCekanja\\Pregled.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ListaCekanja\\Pregled.cshtml",
+              "RelativeToolTip": "Views\\ListaCekanja\\Pregled.cshtml",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAAANUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T15:34:44.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ListaCekanja\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListaCekanja\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ListaCekanja\\Delete.cshtml",
+              "RelativeToolTip": "Views\\ListaCekanja\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T11:20:31.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nalaz\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\Details.cshtml",
+              "RelativeToolTip": "Views\\Nalaz\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T12:08:48.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\KorisnikNaListi\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\KorisnikNaListi\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\KorisnikNaListi\\Edit.cshtml",
+              "RelativeToolTip": "Views\\KorisnikNaListi\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T11:18:01.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Nalaz\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Nalaz\\Create.cshtml",
+              "RelativeToolTip": "Views\\Nalaz\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T23:10:34.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\KorisnikNaListi\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\KorisnikNaListi\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\KorisnikNaListi\\Details.cshtml",
+              "RelativeToolTip": "Views\\KorisnikNaListi\\Details.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T11:18:17.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ListaCekanja\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListaCekanja\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ListaCekanja\\Details.cshtml",
+              "RelativeToolTip": "Views\\ListaCekanja\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T11:20:17.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ListaCekanja\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListaCekanja\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\ListaCekanja\\Edit.cshtml",
+              "RelativeToolTip": "Views\\ListaCekanja\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T11:20:03.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\MedicinskaUsluga\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\MedicinskaUsluga\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\MedicinskaUsluga\\Create.cshtml",
+              "RelativeToolTip": "Views\\MedicinskaUsluga\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T14:54:15.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-10T14:14:56.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "INalazService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\INalazService.cs",
+              "RelativeDocumentMoniker": "Services\\INalazService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\INalazService.cs",
+              "RelativeToolTip": "Services\\INalazService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T21:40:56.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "NalazRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Repositories\\NalazRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\NalazRepository.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Repositories\\NalazRepository.cs",
+              "RelativeToolTip": "Repositories\\NalazRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T23:20:42.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "TerminService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Downloads\\TerminService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\TerminService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Downloads\\TerminService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\TerminService.cs",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAwwBIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T13:01:32.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "ListaCekanjaController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Downloads\\ListaCekanjaController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\ListaCekanjaController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Downloads\\ListaCekanjaController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ListaCekanjaController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAwwKcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T12:43:16.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "KorisnikNaListiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Repositories\\KorisnikNaListiRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\KorisnikNaListiRepository.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Repositories\\KorisnikNaListiRepository.cs",
+              "RelativeToolTip": "Repositories\\KorisnikNaListiRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T12:24:40.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "ResetPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T16:05:59.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "KorisnikController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Downloads\\KorisnikController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\KorisnikController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Downloads\\KorisnikController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\KorisnikController.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAswKMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T11:34:50.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "Index (5).cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Downloads\\Index (5).cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Index (5).cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Downloads\\Index (5).cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Index (5).cshtml",
+              "ViewState": "AgIAAEkBAAAAAAAAAAAowF4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T11:35:33.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T16:03:32.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "NalazDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Downloads\\NalazDetails.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\NalazDetails.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Downloads\\NalazDetails.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\NalazDetails.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAswFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T12:08:41.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "ZahtjevZaOpremuService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\ZahtjevZaOpremuService.cs",
+              "RelativeDocumentMoniker": "Services\\ZahtjevZaOpremuService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\ZahtjevZaOpremuService.cs",
+              "RelativeToolTip": "Services\\ZahtjevZaOpremuService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T21:42:46.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "ZahtjevZaOpremuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Repositories\\ZahtjevZaOpremuRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ZahtjevZaOpremuRepository.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Repositories\\ZahtjevZaOpremuRepository.cs",
+              "RelativeToolTip": "Repositories\\ZahtjevZaOpremuRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:04:51.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "RecenzijaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Repositories\\RecenzijaRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RecenzijaRepository.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Repositories\\RecenzijaRepository.cs",
+              "RelativeToolTip": "Repositories\\RecenzijaRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:54:11.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "TerminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Repositories\\TerminRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TerminRepository.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Repositories\\TerminRepository.cs",
+              "RelativeToolTip": "Repositories\\TerminRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T13:45:45.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:50:12.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "IRecenzijaService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\IRecenzijaService.cs",
+              "RelativeDocumentMoniker": "Services\\IRecenzijaService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\IRecenzijaService.cs",
+              "RelativeToolTip": "Services\\IRecenzijaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T12:35:03.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "TerminController.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Downloads\\TerminController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\TerminController.cs",
+              "ToolTip": "C:\\Users\\DT User\\Downloads\\TerminController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\TerminController.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAwM4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:32:46.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "ListaCekanjaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Repositories\\ListaCekanjaRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ListaCekanjaRepository.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Repositories\\ListaCekanjaRepository.cs",
+              "RelativeToolTip": "Repositories\\ListaCekanjaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T22:13:34.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "ListaCekanjaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Downloads\\ListaCekanjaRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\ListaCekanjaRepository.cs",
+              "ToolTip": "C:\\Users\\DT User\\Downloads\\ListaCekanjaRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\ListaCekanjaRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T22:13:14.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T23:01:53.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "IZahtjevZaOpremuService.cs",
+              "DocumentMoniker": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\IZahtjevZaOpremuService.cs",
+              "RelativeDocumentMoniker": "Services\\IZahtjevZaOpremuService.cs",
+              "ToolTip": "C:\\Users\\DT User\\Desktop\\OOAD\\Grupa6-Tim4\\HealthZone\\Services\\IZahtjevZaOpremuService.cs",
+              "RelativeToolTip": "Services\\IZahtjevZaOpremuService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T21:42:55.728Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
