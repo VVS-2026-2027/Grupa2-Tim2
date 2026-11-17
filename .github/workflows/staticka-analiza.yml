@@ -14,12 +14,18 @@ jobs:
         with:
           dotnet-version: '9.0.x'
 
+      - name: Pronadji projekat
+        run: |
+          PROJ=$(find . -name "HealthZone.csproj" | head -1)
+          echo "Projekat: $PROJ"
+          echo "PROJ=$PROJ" >> $GITHUB_ENV
+
       - name: Restore
-        run: dotnet restore
+        run: dotnet restore "$PROJ"
 
       - name: Build sa Roslyn analizatorima
         run: |
-          dotnet build --no-restore --no-incremental \
+          dotnet build "$PROJ" --no-restore --no-incremental \
             -p:EnableNETAnalyzers=true \
             -p:AnalysisLevel=latest \
             -p:AnalysisMode=All \
@@ -33,7 +39,7 @@ jobs:
 
       - name: Provjera ranjivih paketa (SCA)
         run: |
-          dotnet list package --vulnerable --include-transitive | tee analiza_paketi.txt || true
+          dotnet list "$PROJ" package --vulnerable --include-transitive | tee analiza_paketi.txt || true
 
       - uses: actions/upload-artifact@v4
         with:
