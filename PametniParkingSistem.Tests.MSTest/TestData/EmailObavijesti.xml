@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EmailObavijesti>
+	<EmailObavijest>
+		<Primalac>test4@gmail.com</Primalac>
+		<Naslov>Produzenje</Naslov>
+		<Sadrzaj>Rezervacija je produzena</Sadrzaj>
+		<TipObavijesti>ProduzenjeRezervacije</TipObavijesti>
+		<StatusEmaila>Poslan</StatusEmaila>
+	</EmailObavijest>
+	<EmailObavijest>
+		<Primalac>test5@gmail.com</Primalac>
+		<Naslov>Podsjetnik</Naslov>
+		<Sadrzaj>Podsjetnik za rezervaciju</Sadrzaj>
+		<TipObavijesti>Podsjetnik</TipObavijesti>
+		<StatusEmaila>NaCekanju</StatusEmaila>
+	</EmailObavijest>
+</EmailObavijesti>

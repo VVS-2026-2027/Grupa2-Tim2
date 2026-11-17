@@ -1,0 +1,4 @@
+Primalac;Naslov;Sadrzaj;TipObavijesti;StatusEmaila
+test1@gmail.com;Rezervacija;Uspjesna rezervacija;KreiranjeRezervacije;Poslan
+test2@gmail.com;Izmjena;Izmjena termina;IzmjenaRezervacije;NaCekanju
+test3@gmail.com;Otkazivanje;Rezervacija otkazana;OtkazivanjeRezervacije;Neuspjesno

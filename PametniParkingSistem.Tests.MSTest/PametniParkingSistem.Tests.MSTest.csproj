@@ -20,4 +20,12 @@
     <ProjectReference Include="..\PametniParkingSistem\PametniParkingSistem.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<None Update="TestData\EmailObavijesti.csv">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="TestData\EmailObavijesti.xml">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
 </Project>
