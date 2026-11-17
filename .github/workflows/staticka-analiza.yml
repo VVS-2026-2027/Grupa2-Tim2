@@ -1,0 +1,44 @@
+name: Staticka analiza (Roslyn)
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  analiza:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore
+        run: dotnet restore
+
+      - name: Build sa Roslyn analizatorima
+        run: |
+          dotnet build --no-restore --no-incremental \
+            -p:EnableNETAnalyzers=true \
+            -p:AnalysisLevel=latest \
+            -p:AnalysisMode=All \
+            -p:EnforceCodeStyleInBuild=true \
+            -p:TreatWarningsAsErrors=false \
+            | tee analiza_puna.txt
+
+      - name: Izdvoji upozorenja za modul Recenzija
+        run: |
+          grep -E "warning|error" analiza_puna.txt | grep -i "Recenzija" | sort -u > analiza_recenzija.txt || true
+
+      - name: Provjera ranjivih paketa (SCA)
+        run: |
+          dotnet list package --vulnerable --include-transitive | tee analiza_paketi.txt || true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rezultati-analize
+          path: |
+            analiza_puna.txt
+            analiza_recenzija.txt
+            analiza_paketi.txt
