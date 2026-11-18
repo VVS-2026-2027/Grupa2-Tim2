@@ -1,5 +1,4 @@
-﻿
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -69,9 +68,9 @@ namespace PametniParkingSistem.Tests.MSTest
         private void PostaviKorisnika(params string[] uloge)
         {
             var claims = new List<Claim>
-    {
-        new Claim(ClaimTypes.NameIdentifier, _korisnik.Id)
-    };
+            {
+                new Claim(ClaimTypes.NameIdentifier, _korisnik.Id)
+            };
 
             foreach (var uloga in uloge)
             {
@@ -111,10 +110,10 @@ namespace PametniParkingSistem.Tests.MSTest
             };
         }
 
-        // INDEX
+        // INDEKS
 
         [TestMethod]
-        public async Task Index_VracaSveRecenzije()
+        public async Task Indeks_KadaRecenzijePostoje_VracaSveRecenzije()
         {
             var recenzije = new List<Recenzija>
             {
@@ -133,10 +132,10 @@ namespace PametniParkingSistem.Tests.MSTest
             Assert.AreSame(recenzije, view.Model);
         }
 
-        // DETAILS
+        // DETALJI
 
         [TestMethod]
-        public async Task Details_VracaNotFoundAkoJeIdNull()
+        public async Task Detalji_KadaJeIdNull_VracaRezultatNijePronadjen()
         {
             var rezultat = await _controller.Details(null);
 
@@ -144,7 +143,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task Details_VracaNotFoundAkoRecenzijaNePostoji()
+        public async Task Detalji_KadaRecenzijaNePostoji_VracaRezultatNijePronadjen()
         {
             _serviceMock
                 .Setup(s => s.GetByIdAsync(99))
@@ -156,7 +155,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task Details_VracaPostojecuRecenziju()
+        public async Task Detalji_KadaRecenzijaPostoji_VracaPostojecuRecenziju()
         {
             var recenzija = KreirajRecenziju();
 
@@ -172,10 +171,10 @@ namespace PametniParkingSistem.Tests.MSTest
             Assert.AreSame(recenzija, view.Model);
         }
 
-        // CREATE GET
+        // PRIKAZ OBRASCA ZA KREIRANJE
 
         [TestMethod]
-        public async Task CreateGet_VracaUnauthorizedAkoKorisnikNePostoji()
+        public async Task KreirajGet_KadaKorisnikNePostoji_VracaNeovlastenRezultat()
         {
             _userManagerMock
                 .Setup(u => u.GetUserAsync(It.IsAny<ClaimsPrincipal>()))
@@ -187,7 +186,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreateGet_VracaNotFoundAkoRezervacijaNePostoji()
+        public async Task KreirajGet_KadaRezervacijaNePostoji_VracaRezultatNijePronadjen()
         {
             _rezervacijaServiceMock
                 .Setup(s => s.GetByIdAsync(99))
@@ -199,7 +198,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreateGet_VracaForbidAkoRezervacijaNijeKorisnikova()
+        public async Task KreirajGet_KadaRezervacijaNePripadaKorisniku_VracaZabranjenPristup()
         {
             _rezervacija.KorisnikId = "drugiKorisnik";
 
@@ -213,7 +212,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreateGet_PreusmjeravaAkoRezervacijaNijeZavrsena()
+        public async Task KreirajGet_KadaRezervacijaNijeZavrsena_PreusmjeravaNaDetaljeRezervacije()
         {
             _rezervacija.StatusRezervacije = (StatusRezervacije)999;
 
@@ -231,7 +230,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreateGet_PreusmjeravaAkoRecenzijaVecPostoji()
+        public async Task KreirajGet_KadaRecenzijaVecPostoji_PreusmjeravaNaDetaljeRecenzije()
         {
             _rezervacijaServiceMock
                 .Setup(s => s.GetByIdAsync(10))
@@ -250,7 +249,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreateGet_VracaViewSaNovomRecenzijom()
+        public async Task KreirajGet_KadaRecenzijaNePostoji_VracaObrazacSaNovomRecenzijom()
         {
             _rezervacijaServiceMock
                 .Setup(s => s.GetByIdAsync(10))
@@ -274,10 +273,10 @@ namespace PametniParkingSistem.Tests.MSTest
             Assert.AreEqual(10, _controller.ViewBag.RezervacijaId);
         }
 
-        // CREATE POST
+        // SLANJE OBRASCA ZA KREIRANJE
 
         [TestMethod]
-        public async Task CreatePost_VracaUnauthorizedAkoKorisnikNePostoji()
+        public async Task KreirajPost_KadaKorisnikNePostoji_VracaNeovlastenRezultat()
         {
             _userManagerMock
                 .Setup(u => u.GetUserAsync(It.IsAny<ClaimsPrincipal>()))
@@ -289,7 +288,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreatePost_VracaNotFoundAkoRezervacijaNePostoji()
+        public async Task KreirajPost_KadaRezervacijaNePostoji_VracaRezultatNijePronadjen()
         {
             _rezervacijaServiceMock
                 .Setup(s => s.GetByIdAsync(99))
@@ -301,7 +300,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreatePost_VracaForbidAkoRezervacijaNijeKorisnikova()
+        public async Task KreirajPost_KadaRezervacijaNePripadaKorisniku_VracaZabranjenPristup()
         {
             _rezervacija.KorisnikId = "drugiKorisnik";
 
@@ -315,7 +314,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreatePost_PreusmjeravaAkoRezervacijaNijeZavrsena()
+        public async Task KreirajPost_KadaRezervacijaNijeZavrsena_PreusmjeravaBezDodavanjaRecenzije()
         {
             _rezervacija.StatusRezervacije = (StatusRezervacije)999;
 
@@ -332,7 +331,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreatePost_PreusmjeravaAkoRecenzijaVecPostoji()
+        public async Task KreirajPost_KadaRecenzijaVecPostoji_PreusmjeravaBezDodavanjaRecenzije()
         {
             _rezervacijaServiceMock
                 .Setup(s => s.GetByIdAsync(10))
@@ -352,7 +351,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreatePost_VracaViewAkoModelStateNijeIspravan()
+        public async Task KreirajPost_KadaModelNijeIspravan_VracaObrazac()
         {
             _rezervacijaServiceMock
                 .Setup(s => s.GetByIdAsync(10))
@@ -377,7 +376,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreatePost_DodajeRecenzijuZaZavrsenuRezervaciju()
+        public async Task KreirajPost_KadaJeRezervacijaZavrsena_DodajeRecenziju()
         {
             _rezervacijaServiceMock
                 .Setup(s => s.GetByIdAsync(10))
@@ -412,10 +411,10 @@ namespace PametniParkingSistem.Tests.MSTest
             Assert.AreEqual("Details", redirect.ActionName);
         }
 
-        // DELETE GET
+        // PRIKAZ OBRASCA ZA BRISANJE
 
         [TestMethod]
-        public async Task Delete_VracaNotFoundAkoJeIdNull()
+        public async Task Obrisi_KadaJeIdNull_VracaRezultatNijePronadjen()
         {
             var rezultat = await _controller.Delete(null);
 
@@ -423,7 +422,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task Delete_VracaNotFoundAkoRecenzijaNePostoji()
+        public async Task Obrisi_KadaRecenzijaNePostoji_VracaRezultatNijePronadjen()
         {
             _serviceMock
                 .Setup(s => s.GetByIdAsync(99))
@@ -435,7 +434,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task Delete_VracaViewZaPostojecuRecenziju()
+        public async Task Obrisi_KadaRecenzijaPostoji_VracaObrazacZaBrisanje()
         {
             var recenzija = KreirajRecenziju();
 
@@ -451,10 +450,10 @@ namespace PametniParkingSistem.Tests.MSTest
             Assert.AreSame(recenzija, view.Model);
         }
 
-        // DELETE CONFIRMED POST
+        // POTVRDA BRISANJA
 
         [TestMethod]
-        public async Task DeleteConfirmed_VracaNotFoundAkoRecenzijaNePostoji()
+        public async Task PotvrdiBrisanje_KadaRecenzijaNePostoji_VracaRezultatNijePronadjen()
         {
             _serviceMock
                 .Setup(s => s.GetByIdAsync(99))
@@ -466,7 +465,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteConfirmed_VracaForbidAkoKorisnikNemaUlogu()
+        public async Task PotvrdiBrisanje_KadaKorisnikNemaPotrebnuUlogu_VracaZabranjenPristup()
         {
             _serviceMock
                 .Setup(s => s.GetByIdAsync(1))
@@ -484,7 +483,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteConfirmed_BriseRecenzijuZaAdministratora()
+        public async Task PotvrdiBrisanje_KadaJeKorisnikAdministrator_BriseRecenziju()
         {
             _serviceMock
                 .Setup(s => s.GetByIdAsync(1))
@@ -502,7 +501,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteConfirmed_BriseRecenzijuZaOperatera()
+        public async Task PotvrdiBrisanje_KadaJeKorisnikOperater_BriseRecenziju()
         {
             _serviceMock
                 .Setup(s => s.GetByIdAsync(1))

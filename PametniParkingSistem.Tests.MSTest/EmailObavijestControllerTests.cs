@@ -1,5 +1,4 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
@@ -38,7 +37,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task Index_VracaSveEmailObavijesti()
+        public async Task Indeks_KadaServisVratiObavijesti_VracaPogledSaSvimObavijestima()
         {
             var obavijesti = new List<EmailObavijest>
             {
@@ -58,7 +57,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task Details_VracaNotFoundAkoJeIdNull()
+        public async Task Detalji_KadaJeIdNull_VracaRezultatNijePronadjen()
         {
             var rezultat = await _controller.Details(null);
 
@@ -66,7 +65,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task Details_VracaNotFoundAkoObavijestNePostoji()
+        public async Task Detalji_KadaObavijestNePostoji_VracaRezultatNijePronadjen()
         {
             _serviceMock
                 .Setup(s => s.GetByIdAsync(99))
@@ -78,7 +77,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task Details_VracaPostojecuEmailObavijest()
+        public async Task Detalji_KadaObavijestPostoji_VracaPogledSaObavijesti()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -95,7 +94,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public void Create_VracaPraznuFormu()
+        public void Kreiraj_KadaSeZatraziObrazac_VracaPrazanObrazac()
         {
             var rezultat = _controller.Create();
 
@@ -103,7 +102,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreatePost_DodajeEmailObavijestAkoJeModelValidan()
+        public async Task Kreiraj_KadaJeModelIspravan_DodajeObavijestIPreusmjeravaNaIndeks()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -120,7 +119,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task CreatePost_VracaViewAkoModelNijeValidan()
+        public async Task Kreiraj_KadaModelNijeIspravan_VracaPogledBezDodavanjaObavijesti()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -138,7 +137,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task EditGet_VracaNotFoundAkoJeIdNull()
+        public async Task Uredi_KadaJeIdNull_VracaRezultatNijePronadjen()
         {
             var rezultat = await _controller.Edit(null);
 
@@ -146,7 +145,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task EditGet_VracaNotFoundAkoObavijestNePostoji()
+        public async Task Uredi_KadaObavijestNePostoji_VracaRezultatNijePronadjen()
         {
             _serviceMock
                 .Setup(s => s.GetByIdAsync(99))
@@ -158,7 +157,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task EditGet_VracaPostojecuEmailObavijest()
+        public async Task Uredi_KadaObavijestPostoji_VracaPogledSaObavijesti()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -175,7 +174,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task EditPost_VracaNotFoundAkoSeIdNePodudara()
+        public async Task Uredi_KadaSeIdNePodudara_VracaRezultatNijePronadjenBezIzmjene()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -189,7 +188,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task EditPost_AzuriraEmailObavijestAkoJeModelValidan()
+        public async Task Uredi_KadaJeModelIspravan_AzuriraObavijestIPreusmjeravaNaIndeks()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -206,7 +205,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task EditPost_VracaViewAkoModelNijeValidan()
+        public async Task Uredi_KadaModelNijeIspravan_VracaPogledBezAzuriranjaObavijesti()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -224,7 +223,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task EditPost_VracaNotFoundAkoObavijestNePostojiNakonConcurrencyException()
+        public async Task Uredi_KadaDodjeDoIzuzetkaZbogIstovremenihIzmjenaAObavijestNePostoji_VracaRezultatNijePronadjen()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -242,7 +241,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task EditPost_BacaConcurrencyExceptionAkoObavijestPostoji()
+        public async Task Uredi_KadaDodjeDoIzuzetkaZbogIstovremenihIzmjenaAObavijestPostoji_BacaIzuzetak()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -259,7 +258,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteGet_VracaNotFoundAkoJeIdNull()
+        public async Task Obrisi_KadaJeIdNull_VracaRezultatNijePronadjen()
         {
             var rezultat = await _controller.Delete(null);
 
@@ -267,7 +266,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteGet_VracaNotFoundAkoObavijestNePostoji()
+        public async Task Obrisi_KadaObavijestNePostoji_VracaRezultatNijePronadjen()
         {
             _serviceMock
                 .Setup(s => s.GetByIdAsync(99))
@@ -279,7 +278,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteGet_VracaPostojecuEmailObavijest()
+        public async Task Obrisi_KadaObavijestPostoji_VracaPogledSaObavijesti()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -296,7 +295,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteConfirmed_BriseEmailObavijest()
+        public async Task PotvrdiBrisanje_KadaObavijestPostoji_BriseObavijestIPreusmjeravaNaIndeks()
         {
             var rezultat = await _controller.DeleteConfirmed(1);
 

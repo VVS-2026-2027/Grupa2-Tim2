@@ -10,7 +10,7 @@ namespace PametniParkingSistem.Tests.MSTest
     public class EmailObavijestModelTests
     {
         [TestMethod]
-        public void Primalac_MozeSePostavitiIDohvatiti()
+        public void PostaviPrimalac_IspravnaEmailAdresa_VracaPostavljenuVrijednost()
         {
             var obavijest = new EmailObavijest();
 
@@ -20,7 +20,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public void Naslov_MozeSePostavitiIDohvatiti()
+        public void PostaviNaslov_IspravanNaslov_VracaPostavljenuVrijednost()
         {
             var obavijest = new EmailObavijest();
 
@@ -30,7 +30,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public void Sadrzaj_MozeSePostavitiIDohvatiti()
+        public void PostaviSadrzaj_IspravanSadrzaj_VracaPostavljenuVrijednost()
         {
             var obavijest = new EmailObavijest();
 
@@ -42,7 +42,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public void DatumSlanja_MozeSePostavitiIDohvatiti()
+        public void PostaviDatumSlanja_IspravanDatum_VracaPostavljeniDatum()
         {
             var obavijest = new EmailObavijest();
             var datum = new DateTime(2026, 11, 17);
@@ -53,7 +53,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public void TipObavijesti_MozeSePostavitiIDohvatiti()
+        public void PostaviTipObavijesti_TipPodsjetnik_VracaPostavljeniTip()
         {
             var obavijest = new EmailObavijest();
 
@@ -65,7 +65,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public void StatusEmaila_MozeSePostavitiIDohvatiti()
+        public void PostaviStatusEmaila_StatusPoslan_VracaPostavljeniStatus()
         {
             var obavijest = new EmailObavijest();
 
@@ -106,9 +106,9 @@ namespace PametniParkingSistem.Tests.MSTest
             }
         }
 
-        [DataTestMethod]
-        [DynamicData(nameof(CsvPodaci), DynamicDataSourceType.Property)]
-        public void EmailObavijest_IspravnoPostavljaPodatkeIzCSV(
+        [TestMethod]
+        [DynamicData(nameof(CsvPodaci))]
+        public void KreirajEmailObavijest_PodaciIzCSV_IspravnoPostavljaSvaPolja(
             string primalac,
             string naslov,
             string sadrzaj,
@@ -156,9 +156,9 @@ namespace PametniParkingSistem.Tests.MSTest
             }
         }
 
-        [DataTestMethod]
-        [DynamicData(nameof(XmlPodaci), DynamicDataSourceType.Property)]
-        public void EmailObavijest_IspravnoPostavljaPodatkeIzXML(
+        [TestMethod]
+        [DynamicData(nameof(XmlPodaci))]
+        public void KreirajEmailObavijest_PodaciIzXML_IspravnoPostavljaSvaPolja(
             string primalac,
             string naslov,
             string sadrzaj,

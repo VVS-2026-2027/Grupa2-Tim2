@@ -1,5 +1,4 @@
-﻿
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using PametniParkingSistem.Enums;
 using PametniParkingSistem.Models;
@@ -36,7 +35,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetAllAsync_VracaSveEmailObavijesti()
+        public async Task DohvatiSveAsync_KadaObavijestiPostoje_VracaSveEmailObavijesti()
         {
             var obavijesti = new List<EmailObavijest>
             {
@@ -64,7 +63,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetByIdAsync_VracaPostojecuEmailObavijest()
+        public async Task DohvatiPoIdAsync_KadaObavijestPostoji_VracaPostojecuEmailObavijest()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -78,7 +77,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetByIdAsync_VracaNullZaNepostojecuEmailObavijest()
+        public async Task DohvatiPoIdAsync_KadaObavijestNePostoji_VracaNull()
         {
             _repositoryMock
                 .Setup(r => r.GetByIdAsync(99))
@@ -90,7 +89,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task AddAsync_PozivaRepository()
+        public async Task DodajAsync_KadaJeObavijestProslijedjena_PozivaRepozitorij()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -102,7 +101,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task UpdateAsync_PozivaRepository()
+        public async Task AzurirajAsync_KadaJeObavijestProslijedjena_PozivaRepozitorij()
         {
             var obavijest = KreirajEmailObavijest();
 
@@ -114,7 +113,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteAsync_PozivaRepository()
+        public async Task ObrisiAsync_KadaJeIdProslijedjen_PozivaRepozitorij()
         {
             await _service.DeleteAsync(1);
 

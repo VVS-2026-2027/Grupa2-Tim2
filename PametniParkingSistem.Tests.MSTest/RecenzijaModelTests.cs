@@ -1,5 +1,4 @@
-﻿
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PametniParkingSistem.Models;
 
 namespace PametniParkingSistem.Tests.MSTest
@@ -8,7 +7,7 @@ namespace PametniParkingSistem.Tests.MSTest
     public class RecenzijaModelTests
     {
         [TestMethod]
-        public void Korisnik_MozeSePostavitiIDohvatiti()
+        public void PostaviKorisnika_KadaJeKorisnikDostupan_VracaPostavljenogKorisnika()
         {
             var recenzija = new Recenzija();
             var korisnik = new Korisnik();
@@ -19,7 +18,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public void Rezervacija_MozeSePostavitiIDohvatiti()
+        public void PostaviRezervaciju_KadaJeRezervacijaDostupna_VracaPostavljenuRezervaciju()
         {
             var recenzija = new Recenzija();
             var rezervacija = new Rezervacija();

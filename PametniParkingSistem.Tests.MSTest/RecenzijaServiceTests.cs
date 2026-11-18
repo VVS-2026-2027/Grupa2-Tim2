@@ -1,5 +1,4 @@
-﻿
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using PametniParkingSistem.Models;
 using PametniParkingSistem.Repositories;
@@ -35,7 +34,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetAllAsync_VracaSveRecenzije()
+        public async Task DohvatiSveAsync_KadaRecenzijePostoje_VracaSveRecenzije()
         {
             var recenzije = new List<Recenzija> { KreirajRecenziju() };
             _repositoryMock.Setup(r => r.GetAllAsync()).ReturnsAsync(recenzije);
@@ -47,7 +46,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetByIdAsync_VracaPostojecuRecenziju()
+        public async Task DohvatiPoIdAsync_KadaRecenzijaPostoji_VracaRecenziju()
         {
             var recenzija = KreirajRecenziju();
             _repositoryMock.Setup(r => r.GetByIdAsync(1)).ReturnsAsync(recenzija);
@@ -58,7 +57,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetByIdAsync_VracaNullZaNepostojecuRecenziju()
+        public async Task DohvatiPoIdAsync_KadaRecenzijaNePostoji_VracaNull()
         {
             _repositoryMock.Setup(r => r.GetByIdAsync(99)).ReturnsAsync((Recenzija?)null);
 
@@ -68,7 +67,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetByRezervacijaIdAsync_VracaRecenziju()
+        public async Task DohvatiPoIdRezervacijeAsync_KadaRecenzijaPostoji_VracaRecenziju()
         {
             var recenzija = KreirajRecenziju();
             _repositoryMock.Setup(r => r.GetByRezervacijaIdAsync(10)).ReturnsAsync(recenzija);
@@ -79,7 +78,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetByRezervacijaIdAsync_VracaNullAkoNePostoji()
+        public async Task DohvatiPoIdRezervacijeAsync_KadaRecenzijaNePostoji_VracaNull()
         {
             _repositoryMock.Setup(r => r.GetByRezervacijaIdAsync(99)).ReturnsAsync((Recenzija?)null);
 
@@ -89,7 +88,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task ExistsForRezervacijaAsync_VracaTrueAkoPostoji()
+        public async Task ProvjeriPostojanjeZaRezervacijuAsync_KadaRecenzijaPostoji_VracaTacno()
         {
             _repositoryMock.Setup(r => r.ExistsForRezervacijaAsync(10)).ReturnsAsync(true);
 
@@ -99,7 +98,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task ExistsForRezervacijaAsync_VracaFalseAkoNePostoji()
+        public async Task ProvjeriPostojanjeZaRezervacijuAsync_KadaRecenzijaNePostoji_VracaNetacno()
         {
             _repositoryMock.Setup(r => r.ExistsForRezervacijaAsync(99)).ReturnsAsync(false);
 
@@ -109,7 +108,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task AddAsync_PozivaRepository()
+        public async Task DodajAsync_KadaJeRecenzijaProslijedjena_PozivaRepozitorij()
         {
             var recenzija = KreirajRecenziju();
 
@@ -119,7 +118,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task UpdateAsync_PozivaRepository()
+        public async Task AzurirajAsync_KadaJeRecenzijaProslijedjena_PozivaRepozitorij()
         {
             var recenzija = KreirajRecenziju();
 
@@ -129,12 +128,11 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteAsync_PozivaRepository()
+        public async Task ObrisiAsync_KadaJeIdProslijedjen_PozivaRepozitorij()
         {
             await _service.DeleteAsync(1);
 
             _repositoryMock.Verify(r => r.DeleteAsync(1), Times.Once);
         }
-
     }
 }

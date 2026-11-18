@@ -1,5 +1,4 @@
-﻿
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.EntityFrameworkCore;
 using PametniParkingSistem.Data;
 using PametniParkingSistem.Enums;
@@ -35,7 +34,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetAllAsync_VracaSveEmailObavijesti()
+        public async Task DohvatiSveAsync_KadaObavijestiPostoje_VracaSveObavijesti()
         {
             using var context = KreirajContext();
 
@@ -53,7 +52,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetByIdAsync_VracaPostojecuEmailObavijest()
+        public async Task DohvatiPoIdAsync_KadaObavijestPostoji_VracaObavijest()
         {
             using var context = KreirajContext();
 
@@ -70,7 +69,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetByIdAsync_VracaNullZaNepostojecuEmailObavijest()
+        public async Task DohvatiPoIdAsync_KadaObavijestNePostoji_VracaNull()
         {
             using var context = KreirajContext();
 
@@ -82,7 +81,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task AddAsync_DodajeEmailObavijestUBazu()
+        public async Task DodajAsync_KadaJeObavijestIspravna_DodajeObavijestUBazu()
         {
             using var context = KreirajContext();
 
@@ -95,7 +94,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task UpdateAsync_AzuriraPostojecuEmailObavijest()
+        public async Task AzurirajAsync_KadaObavijestPostoji_AzuriraObavijest()
         {
             using var context = KreirajContext();
 
@@ -119,7 +118,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteAsync_BrisePostojecuEmailObavijest()
+        public async Task ObrisiAsync_KadaObavijestPostoji_BriseObavijest()
         {
             using var context = KreirajContext();
 
@@ -134,7 +133,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteAsync_NeRadiNistaZaNepostojecuEmailObavijest()
+        public async Task ObrisiAsync_KadaObavijestNePostoji_BazaOstajeNepromijenjena()
         {
             using var context = KreirajContext();
 

@@ -1,5 +1,4 @@
-﻿
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.EntityFrameworkCore;
 using PametniParkingSistem.Data;
 using PametniParkingSistem.Models;
@@ -83,7 +82,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetAllAsync_VracaSamoNeobrisaneRecenzijeSortiranePoDatumu()
+        public async Task DohvatiSveAsync_VracaSamoNeobrisaneRecenzijeSortiranePoDatumu()
         {
             using var context = KreirajContext();
 
@@ -107,7 +106,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetByIdAsync_VracaPostojecuNeobrisanuRecenziju()
+        public async Task DohvatiPoIdAsync_KadaNeobrisanaRecenzijaPostoji_VracaRecenziju()
         {
             using var context = KreirajContext();
 
@@ -128,7 +127,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetByIdAsync_VracaNullZaObrisanuRecenziju()
+        public async Task DohvatiPoIdAsync_KadaJeRecenzijaObrisana_VracaNull()
         {
             using var context = KreirajContext();
 
@@ -147,7 +146,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task GetByRezervacijaIdAsync_VracaRecenzijuZaRezervaciju()
+        public async Task DohvatiPoIdRezervacijeAsync_KadaRecenzijaPostoji_VracaRecenzijuZaRezervaciju()
         {
             using var context = KreirajContext();
 
@@ -167,7 +166,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task ExistsForRezervacijaAsync_VracaTrueAkoPostoji()
+        public async Task ProvjeriPostojanjeZaRezervacijuAsync_KadaRecenzijaPostoji_VracaTacno()
         {
             using var context = KreirajContext();
 
@@ -184,7 +183,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task ExistsForRezervacijaAsync_VracaFalseAkoNePostoji()
+        public async Task ProvjeriPostojanjeZaRezervacijuAsync_KadaRecenzijaNePostoji_VracaNetacno()
         {
             using var context = KreirajContext();
 
@@ -196,7 +195,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task AddAsync_DodajeRecenzijuUBazu()
+        public async Task DodajAsync_KadaJeRecenzijaProslijedjena_DodajeRecenzijuUBazu()
         {
             using var context = KreirajContext();
 
@@ -210,7 +209,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task UpdateAsync_AzuriraPostojecuRecenziju()
+        public async Task AzurirajAsync_KadaRecenzijaPostoji_AzuriraRecenziju()
         {
             using var context = KreirajContext();
 
@@ -234,7 +233,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteAsync_MekoBrisePostojecuRecenziju()
+        public async Task ObrisiAsync_KadaRecenzijaPostoji_MekoBriseRecenziju()
         {
             using var context = KreirajContext();
 
@@ -254,7 +253,7 @@ namespace PametniParkingSistem.Tests.MSTest
         }
 
         [TestMethod]
-        public async Task DeleteAsync_NeRadiNistaZaNepostojecuRecenziju()
+        public async Task ObrisiAsync_KadaRecenzijaNePostoji_BazaOstajeNepromijenjena()
         {
             using var context = KreirajContext();
 
