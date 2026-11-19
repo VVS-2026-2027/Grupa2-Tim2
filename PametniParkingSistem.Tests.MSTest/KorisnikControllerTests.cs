@@ -1,4 +1,4 @@
-using System.Security.Claims;
+Ôªøusing System.Security.Claims;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -331,9 +331,9 @@ public class KorisnikControllerTests
     }
 
     [DataTestMethod]
-    [DataRow("DuplicateEmail", "Korisnik sa ovom email adresom veÊ postoji.")]
+    [DataRow("DuplicateEmail", "Korisnik sa ovom email adresom veƒá postoji.")]
     [DataRow("PasswordMismatch", "Trenutna lozinka nije ispravna.")]
-    [DataRow("UnknownError", "Doölo je do greöke. Provjerite unesene podatke i pokuöajte ponovo.")]
+    [DataRow("UnknownError", "Do≈°lo je do gre≈°ke. Provjerite unesene podatke i poku≈°ajte ponovo.")]
     public async Task EditProfil_WhenIdentityUpdateFails_AddsTranslatedError(string code, string message)
     {
         SetExtraUser(id: "1");

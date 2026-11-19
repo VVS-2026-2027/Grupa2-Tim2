@@ -1,3 +1,4 @@
+ï»¿
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -10,6 +11,7 @@ using PametniParkingSistem.Enums;
 using PametniParkingSistem.Models;
 using PametniParkingSistem.ViewModels.Account;
 using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
+
 namespace PametniParkingSistem.Tests.MSTest;
 
 [TestClass]
@@ -26,11 +28,13 @@ public class AccountControllerTests
         _users = new Mock<UserManager<Korisnik>>(store.Object, null!, null!, null!, null!, null!, null!, null!, null!);
         var context = new Mock<IHttpContextAccessor>();
         var claims = new Mock<IUserClaimsPrincipalFactory<Korisnik>>();
+
         _signIn = new Mock<SignInManager<Korisnik>>(
             _users.Object, context.Object, claims.Object, Options.Create(new IdentityOptions()),
             new Mock<ILogger<SignInManager<Korisnik>>>().Object,
             new Mock<Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider>().Object,
             new Mock<IUserConfirmation<Korisnik>>().Object);
+
         _controller = new AccountController(_users.Object, _signIn.Object);
     }
 
@@ -65,7 +69,9 @@ public class AccountControllerTests
     {
         _users.Setup(u => u.CreateAsync(It.IsAny<Korisnik>(), It.IsAny<string>()))
             .ReturnsAsync(IdentityResult.Failed(new IdentityError { Code = "DuplicateEmail" }));
+
         var result = await _controller.Register(ValidRegister());
+
         Assert.IsInstanceOfType(result, typeof(ViewResult));
         Assert.IsFalse(_controller.ModelState.IsValid);
     }
@@ -75,10 +81,15 @@ public class AccountControllerTests
     {
         _users.Setup(u => u.CreateAsync(It.IsAny<Korisnik>(), It.IsAny<string>()))
             .ReturnsAsync(IdentityResult.Success);
+
         _users.Setup(u => u.AddToRoleAsync(It.IsAny<Korisnik>(), It.IsAny<string>()))
             .ReturnsAsync(IdentityResult.Success);
-        _signIn.Setup(s => s.SignInAsync(It.IsAny<Korisnik>(), false, null)).Returns(Task.CompletedTask);
+
+        _signIn.Setup(s => s.SignInAsync(It.IsAny<Korisnik>(), false, null))
+            .Returns(Task.CompletedTask);
+
         var result = await _controller.Register(ValidRegister()) as RedirectToActionResult;
+
         Assert.AreEqual("Home", result?.ControllerName);
     }
 
@@ -87,9 +98,12 @@ public class AccountControllerTests
     {
         _users.Setup(u => u.CreateAsync(It.IsAny<Korisnik>(), It.IsAny<string>()))
             .ReturnsAsync(IdentityResult.Success);
+
         _users.Setup(u => u.AddToRoleAsync(It.IsAny<Korisnik>(), It.IsAny<string>()))
             .ReturnsAsync(IdentityResult.Failed(new IdentityError { Code = "InvalidRoleName" }));
+
         var result = await _controller.Register(ValidRegister());
+
         Assert.IsInstanceOfType(result, typeof(ViewResult));
         Assert.IsFalse(_controller.ModelState.IsValid);
     }
@@ -104,8 +118,11 @@ public class AccountControllerTests
     [TestMethod]
     public async Task Login_WhenUserDoesNotExist_ReturnsViewWithError()
     {
-        _users.Setup(u => u.FindByEmailAsync(It.IsAny<string>())).ReturnsAsync((Korisnik?)null);
+        _users.Setup(u => u.FindByEmailAsync(It.IsAny<string>()))
+            .ReturnsAsync((Korisnik?)null);
+
         var result = await _controller.Login(ValidLogin());
+
         Assert.IsInstanceOfType(result, typeof(ViewResult));
         Assert.IsFalse(_controller.ModelState.IsValid);
     }
@@ -115,8 +132,11 @@ public class AccountControllerTests
     {
         _users.Setup(u => u.FindByEmailAsync(It.IsAny<string>()))
             .ReturnsAsync(new Korisnik { StatusNaloga = StatusNaloga.Blokiran });
+
         await _controller.Login(ValidLogin());
-        _signIn.Verify(s => s.PasswordSignInAsync(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), false), Times.Never);
+
+        _signIn.Verify(s => s.PasswordSignInAsync(
+            It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), false), Times.Never);
     }
 
     [DataTestMethod]
@@ -126,10 +146,18 @@ public class AccountControllerTests
     public async Task Login_WhenCredentialsAreCorrect_RedirectsByRole(string role, string expectedController)
     {
         _users.Setup(u => u.FindByEmailAsync(It.IsAny<string>()))
-            .ReturnsAsync(new Korisnik { StatusNaloga = StatusNaloga.Aktivan, Uloga = Enum.Parse<Uloga>(role) });
-        _signIn.Setup(s => s.PasswordSignInAsync(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), false))
+            .ReturnsAsync(new Korisnik
+            {
+                StatusNaloga = StatusNaloga.Aktivan,
+                Uloga = Enum.Parse<Uloga>(role)
+            });
+
+        _signIn.Setup(s => s.PasswordSignInAsync(
+            It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), false))
             .ReturnsAsync(SignInResult.Success);
+
         var result = await _controller.Login(ValidLogin()) as RedirectToActionResult;
+
         Assert.AreEqual(expectedController, result?.ControllerName);
     }
 
@@ -137,8 +165,11 @@ public class AccountControllerTests
     public async Task Login_WhenPasswordIsWrong_ReturnsViewWithError()
     {
         SetupActiveUser();
-        _signIn.Setup(s => s.PasswordSignInAsync(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), false))
+
+        _signIn.Setup(s => s.PasswordSignInAsync(
+            It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), false))
             .ReturnsAsync(SignInResult.Failed);
+
         Assert.IsInstanceOfType(await _controller.Login(ValidLogin()), typeof(ViewResult));
         Assert.IsFalse(_controller.ModelState.IsValid);
     }
@@ -147,9 +178,13 @@ public class AccountControllerTests
     public async Task Login_WhenAccountIsLockedOut_ReturnsViewWithError()
     {
         SetupActiveUser();
-        _signIn.Setup(s => s.PasswordSignInAsync(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), false))
+
+        _signIn.Setup(s => s.PasswordSignInAsync(
+            It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), false))
             .ReturnsAsync(SignInResult.LockedOut);
+
         await _controller.Login(ValidLogin());
+
         Assert.IsFalse(_controller.ModelState.IsValid);
     }
 
@@ -157,9 +192,13 @@ public class AccountControllerTests
     public async Task Login_WhenSignInIsNotAllowed_ReturnsViewWithError()
     {
         SetupActiveUser();
-        _signIn.Setup(s => s.PasswordSignInAsync(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), false))
+
+        _signIn.Setup(s => s.PasswordSignInAsync(
+            It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), false))
             .ReturnsAsync(SignInResult.NotAllowed);
+
         await _controller.Login(ValidLogin());
+
         Assert.IsFalse(_controller.ModelState.IsValid);
     }
 
@@ -167,9 +206,13 @@ public class AccountControllerTests
     public async Task Login_WhenTwoFactorIsRequired_ReturnsViewWithError()
     {
         SetupActiveUser();
-        _signIn.Setup(s => s.PasswordSignInAsync(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), false))
+
+        _signIn.Setup(s => s.PasswordSignInAsync(
+            It.IsAny<string>(), It.IsAny<string>(), It.IsAny<bool>(), false))
             .ReturnsAsync(SignInResult.TwoFactorRequired);
+
         await _controller.Login(ValidLogin());
+
         Assert.IsFalse(_controller.ModelState.IsValid);
     }
 
@@ -177,33 +220,35 @@ public class AccountControllerTests
     public async Task Logout_WhenCalled_SignsOutAndRedirectsHome()
     {
         _signIn.Setup(s => s.SignOutAsync()).Returns(Task.CompletedTask);
+
         var result = await _controller.Logout() as RedirectToActionResult;
+
         Assert.AreEqual("Home", result?.ControllerName);
         _signIn.Verify(s => s.SignOutAsync(), Times.Once);
     }
 
     [DataTestMethod]
-    [DataRow("DefaultError", "Došlo je do greške. Pokušajte ponovo.")]
-    [DataRow("ConcurrencyFailure", "Došlo je do konflikta pri spremanju podataka. Pokušajte ponovo.")]
+    [DataRow("DefaultError", "DoÅ¡lo je do greÅ¡ke. PokuÅ¡ajte ponovo.")]
+    [DataRow("ConcurrencyFailure", "DoÅ¡lo je do konflikta pri spremanju podataka. PokuÅ¡ajte ponovo.")]
     [DataRow("PasswordMismatch", "Lozinka nije ispravna.")]
     [DataRow("InvalidToken", "Token nije ispravan.")]
-    [DataRow("LoginAlreadyAssociated", "Ova prijava je veæ povezana sa drugim korisnikom.")]
-    [DataRow("InvalidUserName", "Korisnièko ime nije ispravno.")]
+    [DataRow("LoginAlreadyAssociated", "Ova prijava je veÄ‡ povezana sa drugim korisnikom.")]
+    [DataRow("InvalidUserName", "KorisniÄko ime nije ispravno.")]
     [DataRow("InvalidEmail", "Email adresa nije ispravna.")]
-    [DataRow("DuplicateUserName", "Korisnik sa ovom email adresom veæ postoji.")]
-    [DataRow("DuplicateEmail", "Korisnik sa ovom email adresom veæ postoji.")]
+    [DataRow("DuplicateUserName", "Korisnik sa ovom email adresom veÄ‡ postoji.")]
+    [DataRow("DuplicateEmail", "Korisnik sa ovom email adresom veÄ‡ postoji.")]
     [DataRow("InvalidRoleName", "Naziv uloge nije ispravan.")]
-    [DataRow("DuplicateRoleName", "Ova uloga veæ postoji.")]
-    [DataRow("UserAlreadyHasPassword", "Korisnik veæ ima postavljenu lozinku.")]
-    [DataRow("UserLockoutNotEnabled", "Zakljuèavanje korisnièkog naloga nije omoguæeno.")]
-    [DataRow("UserAlreadyInRole", "Korisnik veæ ima ovu ulogu.")]
+    [DataRow("DuplicateRoleName", "Ova uloga veÄ‡ postoji.")]
+    [DataRow("UserAlreadyHasPassword", "Korisnik veÄ‡ ima postavljenu lozinku.")]
+    [DataRow("UserLockoutNotEnabled", "ZakljuÄavanje korisniÄkog naloga nije omoguÄ‡eno.")]
+    [DataRow("UserAlreadyInRole", "Korisnik veÄ‡ ima ovu ulogu.")]
     [DataRow("UserNotInRole", "Korisnik nema ovu ulogu.")]
     [DataRow("PasswordTooShort", "Lozinka mora imati najmanje 6 karaktera.")]
-    [DataRow("PasswordRequiresNonAlphanumeric", "Lozinka mora sadržavati barem jedan specijalni znak.")]
-    [DataRow("PasswordRequiresDigit", "Lozinka mora sadržavati barem jedan broj.")]
-    [DataRow("PasswordRequiresLower", "Lozinka mora sadržavati barem jedno malo slovo.")]
-    [DataRow("PasswordRequiresUpper", "Lozinka mora sadržavati barem jedno veliko slovo.")]
-    [DataRow("UnknownError", "Došlo je do greške. Provjerite unesene podatke i pokušajte ponovo.")]
+    [DataRow("PasswordRequiresNonAlphanumeric", "Lozinka mora sadrÅ¾avati barem jedan specijalni znak.")]
+    [DataRow("PasswordRequiresDigit", "Lozinka mora sadrÅ¾avati barem jedan broj.")]
+    [DataRow("PasswordRequiresLower", "Lozinka mora sadrÅ¾avati barem jedno malo slovo.")]
+    [DataRow("PasswordRequiresUpper", "Lozinka mora sadrÅ¾avati barem jedno veliko slovo.")]
+    [DataRow("UnknownError", "DoÅ¡lo je do greÅ¡ke. Provjerite unesene podatke i pokuÅ¡ajte ponovo.")]
     public async Task Register_WhenIdentityReturnsError_TranslatesErrorToBosnian(
         string errorCode,
         string expectedMessage)
@@ -216,13 +261,12 @@ public class AccountControllerTests
                     new IdentityError
                     {
                         Code = errorCode,
-                        Description = "Originalna Identity greška"
+                        Description = "Originalna Identity greÅ¡ka"
                     }));
 
         var result = await _controller.Register(ValidRegister());
 
         Assert.IsInstanceOfType(result, typeof(ViewResult));
-
         Assert.IsFalse(_controller.ModelState.IsValid);
 
         var errors = _controller.ModelState.Values
@@ -230,7 +274,11 @@ public class AccountControllerTests
             .Select(e => e.ErrorMessage)
             .ToList();
 
-        CollectionAssert.Contains(errors, expectedMessage);
+        CollectionAssert.Contains(
+            errors,
+            expectedMessage,
+            $"OÄekivana poruka: '{expectedMessage}'. " +
+            $"Stvarne poruke: '{string.Join(" | ", errors)}'");
 
         _users.Verify(u => u.CreateAsync(
             It.IsAny<Korisnik>(),
@@ -241,10 +289,16 @@ public class AccountControllerTests
         _users.Setup(u => u.FindByEmailAsync(It.IsAny<string>()))
             .ReturnsAsync(new Korisnik { StatusNaloga = StatusNaloga.Aktivan });
 
-    private static LoginViewModel ValidLogin() => new() { Email = "test@test.ba", Lozinka = "Sifra123!" };
-    private static RegisterViewModel ValidRegister() => new()
-    {
-        Ime = "Ajla", Prezime = "Test", Email = "test@test.ba",
-        Lozinka = "Sifra123!", PotvrdiLozinku = "Sifra123!"
-    };
+    private static LoginViewModel ValidLogin() =>
+        new() { Email = "test@test.ba", Lozinka = "Sifra123!" };
+
+    private static RegisterViewModel ValidRegister() =>
+        new()
+        {
+            Ime = "Ajla",
+            Prezime = "Test",
+            Email = "test@test.ba",
+            Lozinka = "Sifra123!",
+            PotvrdiLozinku = "Sifra123!"
+        };
 }
