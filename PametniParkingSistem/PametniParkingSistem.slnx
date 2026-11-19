@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../PametniParkingSistem.Tests.MSTest/PametniParkingSistem.Tests.MSTest.csproj" />
   <Project Path="PametniParkingSistem.csproj" />
 </Solution>

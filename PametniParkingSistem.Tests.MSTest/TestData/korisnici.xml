@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<korisnici>
+  <korisnik ime="Ajla" prezime="Test" validan="true"/>
+  <korisnik ime="" prezime="Test" validan="false"/>
+  <korisnik ime="Ajla" prezime="" validan="false"/>
+  <korisnik ime="" prezime="" validan="false"/>
+</korisnici>

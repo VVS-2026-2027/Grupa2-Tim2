@@ -1,0 +1,5 @@
+ime;prezime;validan
+Ajla;Test;true
+;Test;false
+Ajla;;false
+;;false

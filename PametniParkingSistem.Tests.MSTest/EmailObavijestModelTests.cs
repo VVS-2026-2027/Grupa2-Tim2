@@ -76,7 +76,6 @@ namespace PametniParkingSistem.Tests.MSTest
                 obavijest.StatusEmaila);
         }
 
-        // Ucitavanje podataka iz CSV datoteke
         public static IEnumerable<object[]> CsvPodaci
         {
             get
@@ -131,7 +130,6 @@ namespace PametniParkingSistem.Tests.MSTest
             Assert.AreEqual(Enum.Parse<StatusEmaila>(status), obavijest.StatusEmaila);
         }
 
-        // Ucitavanje podataka iz XML datoteke
         public static IEnumerable<object[]> XmlPodaci
         {
             get
@@ -180,5 +178,42 @@ namespace PametniParkingSistem.Tests.MSTest
             Assert.AreEqual(Enum.Parse<TipObavijesti>(tip), obavijest.TipObavijesti);
             Assert.AreEqual(Enum.Parse<StatusEmaila>(status), obavijest.StatusEmaila);
         }
+
+        [TestMethod]
+        public void CsvPodaci_KadaSeUcitaDatoteka_VracaIspravnePodatke()
+        {
+            var podaci = CsvPodaci.ToList();
+
+            Assert.IsTrue(podaci.Count > 0);
+
+            foreach (var red in podaci)
+            {
+                Assert.AreEqual(5, red.Length);
+
+                foreach (var vrijednost in red)
+                {
+                    Assert.IsInstanceOfType(vrijednost, typeof(string));
+                }
+            }
+        }
+
+        [TestMethod]
+        public void XmlPodaci_KadaSeUcitaDatoteka_VracaIspravnePodatke()
+        {
+            var podaci = XmlPodaci.ToList();
+
+            Assert.IsTrue(podaci.Count > 0);
+
+            foreach (var red in podaci)
+            {
+                Assert.AreEqual(5, red.Length);
+
+                foreach (var vrijednost in red)
+                {
+                    Assert.IsInstanceOfType(vrijednost, typeof(string));
+                }
+            }
+        }
+
     }
 }
