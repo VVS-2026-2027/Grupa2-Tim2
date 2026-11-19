@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<slucajevi>
+  <slucaj opis="Nema placanja" ocekivano="0" />
+  <slucaj opis="Jedno uspjesno placanje" ocekivano="10.5">
+    <placanje status="Uspjesno" iznos="10.5" />
+  </slucaj>
+  <slucaj opis="Zbir vise uspjesnih placanja" ocekivano="35">
+    <placanje status="Uspjesno" iznos="10" />
+    <placanje status="Uspjesno" iznos="20" />
+    <placanje status="Uspjesno" iznos="5" />
+  </slucaj>
+  <slucaj opis="Neuspjesna i refundirana placanja se ne racunaju" ocekivano="10">
+    <placanje status="Uspjesno" iznos="10" />
+    <placanje status="Neuspjesno" iznos="50" />
+    <placanje status="Refundirano" iznos="30" />
+    <placanje status="NaCekanju" iznos="15" />
+  </slucaj>
+  <slucaj opis="Samo neuspjesna placanja" ocekivano="0">
+    <placanje status="Neuspjesno" iznos="40" />
+    <placanje status="NaCekanju" iznos="25" />
+  </slucaj>
+  <slucaj opis="Decimalni iznosi" ocekivano="7.75">
+    <placanje status="Uspjesno" iznos="2.25" />
+    <placanje status="Uspjesno" iznos="5.5" />
+  </slucaj>
+</slucajevi>

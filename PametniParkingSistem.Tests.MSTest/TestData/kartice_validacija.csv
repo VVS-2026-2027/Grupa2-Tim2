@@ -1,0 +1,20 @@
+ime,brojKartice,datumIsteka,cvv,ocekivanoValjano
+Amina Hodzic,1234 5678 9012 3456,12/99,123,true
+Amina Hodzic,1234567890123456,12/99,123,true
+Amina Hodzic,1234 5678 9012 3456,01/50,999,true
+,1234 5678 9012 3456,12/99,123,false
+Amina Hodzic,,12/99,123,false
+Amina Hodzic,1234 5678 9012 345,12/99,123,false
+Amina Hodzic,1234 5678 9012 34567,12/99,123,false
+Amina Hodzic,abcd efgh ijkl mnop,12/99,123,false
+Amina Hodzic,1234 5678 9012 3456,,123,false
+Amina Hodzic,1234 5678 9012 3456,1299,123,false
+Amina Hodzic,1234 5678 9012 3456,12/99/01,123,false
+Amina Hodzic,1234 5678 9012 3456,13/99,123,false
+Amina Hodzic,1234 5678 9012 3456,00/99,123,false
+Amina Hodzic,1234 5678 9012 3456,ab/cd,123,false
+Amina Hodzic,1234 5678 9012 3456,01/20,123,false
+Amina Hodzic,1234 5678 9012 3456,12/99,,false
+Amina Hodzic,1234 5678 9012 3456,12/99,12,false
+Amina Hodzic,1234 5678 9012 3456,12/99,1234,false
+Amina Hodzic,1234 5678 9012 3456,12/99,abc,false

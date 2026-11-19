@@ -1,0 +1,10 @@
+[
+  { "opis": "Filter Otvoren", "status": "Otvoren", "ocekivanoBroj": 2 },
+  { "opis": "Filter UObradi", "status": "UObradi", "ocekivanoBroj": 1 },
+  { "opis": "Filter Rijesen", "status": "Rijesen", "ocekivanoBroj": 1 },
+  { "opis": "Filter Zatvoren (nema takvih zahtjeva)", "status": "Zatvoren", "ocekivanoBroj": 0 },
+  { "opis": "Bez filtera (null)", "status": null, "ocekivanoBroj": 4 },
+  { "opis": "Prazan filter", "status": "", "ocekivanoBroj": 4 },
+  { "opis": "Razmak umjesto filtera", "status": "   ", "ocekivanoBroj": 4 },
+  { "opis": "Nepoznat status se ignorira", "status": "nepoznat", "ocekivanoBroj": 4 }
+]
