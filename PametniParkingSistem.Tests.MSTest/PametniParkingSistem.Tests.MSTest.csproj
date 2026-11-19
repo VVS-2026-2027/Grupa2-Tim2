@@ -25,6 +25,12 @@
   </ItemGroup>
 
 	<ItemGroup>
+		<None Update="TestData\cjenovnici.csv">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="TestData\cjenovnici.xml">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
 		<None Update="TestData\EmailObavijesti.csv">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>

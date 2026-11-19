@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cjenovnici>
+	<Cjenovnik>
+		<CijenaPoSatu>1.5</CijenaPoSatu>
+		<VaziOd>2026-01-01</VaziOd>
+		<VaziDo>2026-02-28</VaziDo>
+	</Cjenovnik>
+	<Cjenovnik>
+		<CijenaPoSatu>3.25</CijenaPoSatu>
+		<VaziOd>2026-03-01</VaziOd>
+		<VaziDo>2026-08-31</VaziDo>
+	</Cjenovnik>
+	<Cjenovnik>
+		<CijenaPoSatu>5</CijenaPoSatu>
+		<VaziOd>2026-09-01</VaziOd>
+		<VaziDo>2026-12-31</VaziDo>
+	</Cjenovnik>
+</Cjenovnici>
