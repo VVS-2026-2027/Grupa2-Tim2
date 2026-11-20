@@ -53,6 +53,7 @@ builder.Services.AddScoped<IRecenzijaService, RecenzijaService>();
 builder.Services.AddScoped<IPlacanjeService, PlacanjeService>();
 builder.Services.AddScoped<IParkingZonaService, ParkingZonaService>();
 builder.Services.AddScoped<IKorisnikService, KorisnikService>();
+builder.Services.AddScoped<IKaznaService, KaznaService>();
 builder.Services.AddScoped<IEmailObavijestService, EmailObavijestService>();
 builder.Services.AddScoped<ICjenovnikService, CjenovnikService>();
 
