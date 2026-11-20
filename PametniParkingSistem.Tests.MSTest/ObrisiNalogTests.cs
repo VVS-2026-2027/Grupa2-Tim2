@@ -11,21 +11,22 @@ namespace PametniParkingSistem.Tests.MSTest;
 [TestClass]
 public class ObrisiNalogTests
 {
+    private static ApplicationDbContext NapraviContext()
+    {
+        var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+            .UseInMemoryDatabase(Guid.NewGuid().ToString()).Options;
+        return new ApplicationDbContext(options);
+    }
+
+    private static Korisnik NapraviKorisnika(string id = "1") =>
+        new() { Id = id, Ime = "Ajla", Prezime = "Test", UserName = $"user{id}", Email = $"user{id}@test.ba" };
+
     [TestMethod]
     public async Task ObrisiNalogAsync_BezAktivnihRezervacija_BriseNalog()
     {
         // Arrange
-        var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-            .UseInMemoryDatabase(Guid.NewGuid().ToString()).Options;
-        using var context = new ApplicationDbContext(options);
-        context.Users.Add(new Korisnik
-        {
-            Id = "1",
-            Ime = "Ajla",
-            Prezime = "Test",
-            UserName = "user1",
-            Email = "user1@test.ba"
-        });
+        using var context = NapraviContext();
+        context.Users.Add(NapraviKorisnika());
         context.Rezervacije.Add(new Rezervacija
         {
             Id = 1,
