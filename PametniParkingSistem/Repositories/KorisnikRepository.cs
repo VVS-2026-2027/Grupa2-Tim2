@@ -39,11 +39,13 @@ namespace PametniParkingSistem.Repositories
         {
             var korisnik = await _context.Users.FindAsync(id);
 
-            if (korisnik != null)
+            if (korisnik == null)
             {
-                _context.Users.Remove(korisnik);
-                await _context.SaveChangesAsync();
+                throw new InvalidOperationException("Korisnik ne postoji.");
             }
+
+            _context.Users.Remove(korisnik);
+            await _context.SaveChangesAsync();
         }
     }
 }
