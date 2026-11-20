@@ -60,5 +60,28 @@ namespace PametniParkingSistem.Tests.MSTest
             // Assert
             Assert.AreEqual(ocekivanaKazna, rezultat);
         }
+
+        [TestMethod]
+        [DataRow(26 * 60)]
+        [DataRow(48 * 60)]
+        [DataRow(100 * 60)]
+        public void IzracunajKaznu_PrekoracenjeIznadGranice_KaznaJeOgranicenaNa50(int minutaPrekoracenja)
+        {
+            // Arrange
+            var service = new KaznaService();
+            var rezervacija = new Rezervacija
+            {
+                VrijemePocetka = new DateTime(2026, 11, 20, 10, 0, 0),
+                VrijemeKraja = new DateTime(2026, 11, 20, 12, 0, 0),
+                StatusRezervacije = StatusRezervacije.Aktivna
+            };
+            var stvarnoVrijemeIzlaska = rezervacija.VrijemeKraja.AddMinutes(minutaPrekoracenja);
+
+            // Act
+            var rezultat = service.IzracunajKaznu(rezervacija, stvarnoVrijemeIzlaska);
+
+            // Assert
+            Assert.AreEqual(50.0, rezultat);
+        }
     }
 }
