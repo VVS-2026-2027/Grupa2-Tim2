@@ -19,7 +19,9 @@ namespace PametniParkingSistem.Services
                 return 0;
             }
 
-            throw new NotImplementedException();
+            var prekoracenje = stvarnoVrijemeIzlaska - rezervacija.VrijemeKraja;
+
+            return Math.Ceiling(prekoracenje.TotalHours) * 2.0;
         }
     }
 }
