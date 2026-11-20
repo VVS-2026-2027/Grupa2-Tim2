@@ -7,6 +7,7 @@ namespace PametniParkingSistem.Services
     {
         private const int TolerancijaUMinutama = 10;
         private const double CijenaPoZapocetomSatu = 2.0;
+        private const double MaksimalnaKazna = 50.0;
 
         public double IzracunajKaznu(
             Rezervacija rezervacija,
@@ -23,7 +24,8 @@ namespace PametniParkingSistem.Services
             var prekoracenje = stvarnoVrijemeIzlaska - rezervacija.VrijemeKraja;
             var zapocetiSati = Math.Ceiling(prekoracenje.TotalHours);
 
-            return zapocetiSati * CijenaPoZapocetomSatu;
+            var kazna = zapocetiSati * CijenaPoZapocetomSatu;
+            return Math.Min(kazna, MaksimalnaKazna);
         }
     }
 }
