@@ -37,5 +37,9 @@ namespace PametniParkingSistem.Services
         {
             await _repository.DeleteAsync(id);
         }
+        public Task ObrisiNalogAsync(string korisnikId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

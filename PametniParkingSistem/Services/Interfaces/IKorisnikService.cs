@@ -9,5 +9,6 @@ namespace PametniParkingSistem.Services.Interfaces
         Task AddAsync(Korisnik korisnik);
         Task UpdateAsync(Korisnik korisnik);
         Task DeleteAsync(string id);
+        Task ObrisiNalogAsync(string korisnikId);
     }
 }
