@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PametniParkingSistem.Data;
 using PametniParkingSistem.Models;
 using PametniParkingSistem.Repositories;
+using PametniParkingSistem.Enums;
 
 namespace PametniParkingSistem.Tests.MSTest;
 
@@ -95,5 +96,28 @@ public class KorisnikRepositoryTests
 
         await Assert.ThrowsExactlyAsync<InvalidOperationException>(
             () => repository.DeleteAsync("404"));
+    }
+
+    [TestMethod]
+    public async Task DeleteAsync_WhenUserHasActiveReservations_ThrowsException()
+    {
+        using var context = CreateContext();
+        context.Users.Add(CreateUser());
+        context.Rezervacije.Add(new Rezervacija
+        {
+            Id = 1,
+            KorisnikId = "1",
+            VrijemePocetka = new DateTime(2026, 11, 20, 10, 0, 0),
+            VrijemeKraja = new DateTime(2026, 11, 20, 12, 0, 0),
+            StatusRezervacije = StatusRezervacije.Aktivna
+        });
+        await context.SaveChangesAsync();
+        var repository = new KorisnikRepository(context);
+
+        var izuzetak = await Assert.ThrowsExactlyAsync<InvalidOperationException>(
+            () => repository.DeleteAsync("1"));
+
+        Assert.AreEqual("Korisnik ima aktivne rezervacije.", izuzetak.Message);
+        Assert.AreEqual(1, await context.Users.CountAsync());
     }
 }
