@@ -12,6 +12,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Globalization;
+using System.IO;
 
 namespace PametniParkingSistem.Tests.MSTest
 {
@@ -54,6 +56,36 @@ namespace PametniParkingSistem.Tests.MSTest
         {
             var view = (ViewResult)rezultat;
             return ((IEnumerable<ParkingMjesto>)view.Model!).ToList();
+        }
+
+        public static IEnumerable<object?[]> FilteriIzCsvFajla()
+        {
+            var linije = File.ReadAllLines(Path.Combine("TestData", "ParkingMjestoFilteri.csv")).Skip(1);
+
+            foreach (var linija in linije)
+            {
+                var d = linija.Split(',');
+                yield return new object?[]
+                {
+            d[0] == "" ? null : double.Parse(d[0], CultureInfo.InvariantCulture),
+            d[1] == "" ? null : double.Parse(d[1], CultureInfo.InvariantCulture),
+            d[2] == "" ? null : double.Parse(d[2], CultureInfo.InvariantCulture),
+            int.Parse(d[3])
+                };
+            }
+        }
+
+        [TestMethod]
+        [DynamicData(nameof(FilteriIzCsvFajla))]
+        public async Task Index_FilteriIzCsvFajla_VracaOcekivaniBrojMjesta(
+            double? minCijena, double? maxCijena, double? maxUdaljenost, int ocekivano)
+        {
+            _serviceMock.Setup(s => s.GetAllAsync()).ReturnsAsync(TestnaMjesta());
+            var kontroler = NapraviKontroler("?filter=1");
+
+            var rezultat = await kontroler.Index(null, null, null, minCijena, maxCijena, maxUdaljenost);
+
+            Assert.AreEqual(ocekivano, Model(rezultat).Count);
         }
 
         // ---------- Index ----------

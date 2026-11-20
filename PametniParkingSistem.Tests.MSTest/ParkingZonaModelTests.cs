@@ -1,5 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PametniParkingSistem.Models;
+using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using System.Xml.Linq;
 
 namespace PametniParkingSistem.Tests.MSTest
 {
@@ -53,6 +57,32 @@ namespace PametniParkingSistem.Tests.MSTest
 
             Assert.AreEqual(1, zona.ParkingMjesta.Count);
             Assert.IsTrue(zona.ParkingMjesta.Contains(mjesto));
+        }
+
+        public static IEnumerable<object[]> ZoneIzXmlFajla()
+        {
+            var dokument = XDocument.Load(Path.Combine("TestData", "ParkingZone.xml"));
+
+            foreach (var zona in dokument.Root!.Elements("Zona"))
+            {
+                yield return new object[]
+                {
+                    zona.Element("Naziv")!.Value,
+                    zona.Element("Lokacija")!.Value,
+                    double.Parse(zona.Element("ProsjecnaOcjena")!.Value, CultureInfo.InvariantCulture)
+                };
+            }
+        }
+
+        [TestMethod]
+        [DynamicData(nameof(ZoneIzXmlFajla))]
+        public void Svojstva_PodaciIzXmlFajla_VracajuIsteVrijednosti(string naziv, string lokacija, double ocjena)
+        {
+            var zona = new ParkingZona { Naziv = naziv, Lokacija = lokacija, ProsjecnaOcjena = ocjena };
+
+            Assert.AreEqual(naziv, zona.Naziv);
+            Assert.AreEqual(lokacija, zona.Lokacija);
+            Assert.AreEqual(ocjena, zona.ProsjecnaOcjena);
         }
     }
 }

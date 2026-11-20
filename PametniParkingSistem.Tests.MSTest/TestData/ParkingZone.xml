@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Zone>
+	<Zona>
+		<Naziv>Centar</Naziv>
+		<Lokacija>Titova 1</Lokacija>
+		<ProsjecnaOcjena>4.5</ProsjecnaOcjena>
+	</Zona>
+	<Zona>
+		<Naziv>Ilidža</Naziv>
+		<Lokacija>Butmirska cesta 10</Lokacija>
+		<ProsjecnaOcjena>3.75</ProsjecnaOcjena>
+	</Zona>
+	<Zona>
+		<Naziv>Baščaršija</Naziv>
+		<Lokacija>Sarači 5</Lokacija>
+		<ProsjecnaOcjena>5</ProsjecnaOcjena>
+	</Zona>
+</Zone>
