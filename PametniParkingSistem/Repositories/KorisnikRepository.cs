@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Microsoft.EntityFrameworkCore;
 using PametniParkingSistem.Data;
 using PametniParkingSistem.Models;
 
@@ -6,6 +7,8 @@ namespace PametniParkingSistem.Repositories
 {
     public class KorisnikRepository : IKorisnikRepository
     {
+        private const string KorisnikNePostojiPoruka = "Korisnik ne postoji.";
+
         private readonly ApplicationDbContext _context;
 
         public KorisnikRepository(ApplicationDbContext context)
@@ -15,7 +18,7 @@ namespace PametniParkingSistem.Repositories
 
         public async Task<List<Korisnik>> GetAllAsync()
         {
-            return await _context.Users.ToListAsync(); 
+            return await _context.Users.ToListAsync();
         }
 
         public async Task<Korisnik?> GetByIdAsync(string id)
@@ -41,7 +44,7 @@ namespace PametniParkingSistem.Repositories
 
             if (korisnik == null)
             {
-                throw new InvalidOperationException("Korisnik ne postoji.");
+                throw new InvalidOperationException(KorisnikNePostojiPoruka);
             }
 
             _context.Users.Remove(korisnik);
