@@ -1,4 +1,5 @@
-﻿using PametniParkingSistem.Models;
+﻿
+using PametniParkingSistem.Models;
 using PametniParkingSistem.Services.Interfaces;
 
 namespace PametniParkingSistem.Services
@@ -9,6 +10,13 @@ namespace PametniParkingSistem.Services
             Rezervacija rezervacija,
             DateTime stvarnoVrijemeIzlaska)
         {
+            var krajTolerancije = rezervacija.VrijemeKraja.AddMinutes(10);
+
+            if (stvarnoVrijemeIzlaska <= krajTolerancije)
+            {
+                return 0;
+            }
+
             throw new NotImplementedException();
         }
     }
