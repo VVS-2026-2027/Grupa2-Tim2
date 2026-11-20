@@ -6,6 +6,7 @@ namespace PametniParkingSistem.Services
     public class KaznaService : IKaznaService
     {
         private const int TolerancijaUMinutama = 10;
+        private const double CijenaPoZapocetomSatu = 2.0;
 
         public double IzracunajKaznu(
             Rezervacija rezervacija,
@@ -20,8 +21,9 @@ namespace PametniParkingSistem.Services
             }
 
             var prekoracenje = stvarnoVrijemeIzlaska - rezervacija.VrijemeKraja;
+            var zapocetiSati = Math.Ceiling(prekoracenje.TotalHours);
 
-            return Math.Ceiling(prekoracenje.TotalHours) * 2.0;
+            return zapocetiSati * CijenaPoZapocetomSatu;
         }
     }
 }
