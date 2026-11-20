@@ -2,12 +2,14 @@
 using Microsoft.EntityFrameworkCore;
 using PametniParkingSistem.Data;
 using PametniParkingSistem.Models;
+using PametniParkingSistem.Enums;
 
 namespace PametniParkingSistem.Repositories
 {
     public class KorisnikRepository : IKorisnikRepository
     {
         private const string KorisnikNePostojiPoruka = "Korisnik ne postoji.";
+        private const string AktivneRezervacijePoruka = "Korisnik ima aktivne rezervacije.";
 
         private readonly ApplicationDbContext _context;
 
@@ -45,6 +47,14 @@ namespace PametniParkingSistem.Repositories
             if (korisnik == null)
             {
                 throw new InvalidOperationException(KorisnikNePostojiPoruka);
+            }
+
+            var imaAktivneRezervacije = await _context.Rezervacije
+    .AnyAsync(r => r.KorisnikId == id && r.StatusRezervacije == StatusRezervacije.Aktivna);
+
+            if (imaAktivneRezervacije)
+            {
+                throw new InvalidOperationException(AktivneRezervacijePoruka);
             }
 
             _context.Users.Remove(korisnik);
