@@ -49,16 +49,20 @@ namespace PametniParkingSistem.Repositories
                 throw new InvalidOperationException(KorisnikNePostojiPoruka);
             }
 
-            var imaAktivneRezervacije = await _context.Rezervacije
-    .AnyAsync(r => r.KorisnikId == id && r.StatusRezervacije == StatusRezervacije.Aktivna);
-
-            if (imaAktivneRezervacije)
+            if (await ImaAktivneRezervacijeAsync(id))
             {
                 throw new InvalidOperationException(AktivneRezervacijePoruka);
             }
 
             _context.Users.Remove(korisnik);
             await _context.SaveChangesAsync();
+        }
+
+        private Task<bool> ImaAktivneRezervacijeAsync(string korisnikId)
+        {
+            return _context.Rezervacije.AnyAsync(r =>
+                r.KorisnikId == korisnikId &&
+                r.StatusRezervacije == StatusRezervacije.Aktivna);
         }
     }
 }
