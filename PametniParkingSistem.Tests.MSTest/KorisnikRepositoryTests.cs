@@ -86,11 +86,14 @@ public class KorisnikRepositoryTests
         Assert.AreEqual(0, await context.Users.CountAsync());
     }
 
+    //za potrebe implementiranja Funkcionalnosti 2, mijenjamo ovaj test, Task 2 i stanje prije promjene je već zabilježeno na gitu u Task2
     [TestMethod]
-    public async Task DeleteAsync_WhenUserDoesNotExist_DoesNotThrow()
+    public async Task DeleteAsync_WhenUserDoesNotExist_ThrowsException()
     {
         using var context = CreateContext();
-        await new KorisnikRepository(context).DeleteAsync("404");
-        Assert.AreEqual(0, await context.Users.CountAsync());
+        var repository = new KorisnikRepository(context);
+
+        await Assert.ThrowsExactlyAsync<InvalidOperationException>(
+            () => repository.DeleteAsync("404"));
     }
 }
