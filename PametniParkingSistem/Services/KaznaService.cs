@@ -14,12 +14,7 @@ namespace PametniParkingSistem.Services
             Rezervacija rezervacija,
             DateTime stvarnoVrijemeIzlaska)
         {
-            if (rezervacija.VrijemeKraja < rezervacija.VrijemePocetka)
-            {
-                throw new ArgumentException(
-                    "Vrijeme završetka rezervacije ne može biti prije vremena početka.",
-                    nameof(rezervacija));
-            }
+            ValidirajVremenskiInterval(rezervacija);
 
             if (RezervacijaBezKazne(rezervacija))
             {
@@ -41,6 +36,17 @@ namespace PametniParkingSistem.Services
             var kazna = zapocetiSati * CijenaPoZapocetomSatu;
 
             return Math.Min(kazna, MaksimalnaKazna);
+        }
+
+        private static void ValidirajVremenskiInterval(
+            Rezervacija rezervacija)
+        {
+            if (rezervacija.VrijemeKraja < rezervacija.VrijemePocetka)
+            {
+                throw new ArgumentException(
+                    "Vrijeme završetka rezervacije ne može biti prije vremena početka.",
+                    nameof(rezervacija));
+            }
         }
 
         private static bool RezervacijaBezKazne(Rezervacija rezervacija)
