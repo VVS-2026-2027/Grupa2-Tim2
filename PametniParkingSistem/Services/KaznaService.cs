@@ -1,4 +1,6 @@
-﻿using PametniParkingSistem.Models;
+﻿
+using PametniParkingSistem.Enums;
+using PametniParkingSistem.Models;
 using PametniParkingSistem.Services.Interfaces;
 
 namespace PametniParkingSistem.Services
@@ -13,6 +15,12 @@ namespace PametniParkingSistem.Services
             Rezervacija rezervacija,
             DateTime stvarnoVrijemeIzlaska)
         {
+            if (rezervacija.StatusRezervacije == StatusRezervacije.Otkazana ||
+                rezervacija.StatusRezervacije == StatusRezervacije.Kreirana)
+            {
+                return 0;
+            }
+
             var krajTolerancije = rezervacija.VrijemeKraja
                 .AddMinutes(TolerancijaUMinutama);
 
