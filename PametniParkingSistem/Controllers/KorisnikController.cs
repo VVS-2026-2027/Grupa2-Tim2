@@ -68,7 +68,9 @@ namespace PametniParkingSistem.Controllers
         [Authorize(Roles = "Administrator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Ime,Prezime,Email,PhoneNumber,DatumRegistracije,StatusNaloga,Uloga")] Korisnik korisnik)
+        public async Task<IActionResult> Create(
+            [Bind("Id,Ime,Prezime,Email,PhoneNumber,DatumRegistracije,StatusNaloga,Uloga")]
+            Korisnik korisnik)
         {
             if (string.IsNullOrWhiteSpace(korisnik.Ime))
                 ModelState.AddModelError("Ime", "Ime je obavezno.");
@@ -115,7 +117,10 @@ namespace PametniParkingSistem.Controllers
         [Authorize(Roles = "Administrator,Operater")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, Enums.StatusNaloga statusNaloga, Enums.Uloga? uloga)
+        public async Task<IActionResult> Edit(
+            string id,
+            Enums.StatusNaloga statusNaloga,
+            Enums.Uloga? uloga)
         {
             var korisnik = await _service.GetByIdAsync(id);
             if (korisnik == null) return NotFound();
@@ -136,9 +141,11 @@ namespace PametniParkingSistem.Controllers
                 var trenutneRole = await _userManager.GetRolesAsync(korisnik);
 
                 if (trenutneRole.Any())
-                    await _userManager.RemoveFromRolesAsync(korisnik, trenutneRole);
+                    await _userManager.RemoveFromRolesAsync(
+                        korisnik, trenutneRole);
 
-                await _userManager.AddToRoleAsync(korisnik, uloga.Value.ToString());
+                await _userManager.AddToRoleAsync(
+                    korisnik, uloga.Value.ToString());
             }
 
             await _service.UpdateAsync(korisnik);
@@ -178,7 +185,9 @@ namespace PametniParkingSistem.Controllers
             var korisnik = await _service.GetByIdAsync(userId);
             if (korisnik == null) return NotFound();
 
-            var rezervacije = await _rezervacijaService.GetByKorisnikIdAsync(userId);
+            var rezervacije =
+                await _rezervacijaService.GetByKorisnikIdAsync(userId);
+
             ViewBag.BrojRezervacija = rezervacije.Count;
 
             return View(korisnik);
@@ -199,7 +208,9 @@ namespace PametniParkingSistem.Controllers
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditProfil(Korisnik model, IFormFile? profilnaSlika)
+        public async Task<IActionResult> EditProfil(
+            Korisnik model,
+            IFormFile? profilnaSlika)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (userId == null) return Unauthorized();
@@ -229,12 +240,18 @@ namespace PametniParkingSistem.Controllers
 
             if (profilnaSlika != null && profilnaSlika.Length > 0)
             {
-                var dozvoljeneEkstenzije = new[] { ".jpg", ".jpeg", ".png", ".webp" };
-                var ekstenzija = Path.GetExtension(profilnaSlika.FileName).ToLower();
+                var dozvoljeneEkstenzije =
+                    new[] { ".jpg", ".jpeg", ".png", ".webp" };
+
+                var ekstenzija = Path.GetExtension(
+                    profilnaSlika.FileName).ToLower();
 
                 if (!dozvoljeneEkstenzije.Contains(ekstenzija))
                 {
-                    ModelState.AddModelError("ProfilnaSlikaUrl", "Dozvoljeni formati slike su JPG, JPEG, PNG i WEBP.");
+                    ModelState.AddModelError(
+                        "ProfilnaSlikaUrl",
+                        "Dozvoljeni formati slike su JPG, JPEG, PNG i WEBP.");
+
                     return View(korisnik);
                 }
 
@@ -242,8 +259,7 @@ namespace PametniParkingSistem.Controllers
                     Directory.GetCurrentDirectory(),
                     "wwwroot",
                     "uploads",
-                    "profili"
-                );
+                    "profili");
 
                 if (!Directory.Exists(folder))
                     Directory.CreateDirectory(folder);
@@ -251,7 +267,8 @@ namespace PametniParkingSistem.Controllers
                 var fileName = $"{Guid.NewGuid()}{ekstenzija}";
                 var filePath = Path.Combine(folder, fileName);
 
-                using (var stream = new FileStream(filePath, FileMode.Create))
+                using (var stream = new FileStream(
+                    filePath, FileMode.Create))
                 {
                     await profilnaSlika.CopyToAsync(stream);
                 }
@@ -271,7 +288,8 @@ namespace PametniParkingSistem.Controllers
 
             foreach (var error in result.Errors)
             {
-                ModelState.AddModelError(string.Empty, PrevediIdentityGresku(error));
+                ModelState.AddModelError(
+                    string.Empty, PrevediIdentityGresku(error));
             }
 
             return View(korisnik);
@@ -292,19 +310,27 @@ namespace PametniParkingSistem.Controllers
             string? potvrdaLozinke)
         {
             if (string.IsNullOrWhiteSpace(trenutnaLozinka))
-                ModelState.AddModelError("trenutnaLozinka", "Trenutna lozinka je obavezna.");
+                ModelState.AddModelError(
+                    "trenutnaLozinka",
+                    "Trenutna lozinka je obavezna.");
 
             if (string.IsNullOrWhiteSpace(novaLozinka))
-                ModelState.AddModelError("novaLozinka", "Nova lozinka je obavezna.");
+                ModelState.AddModelError(
+                    "novaLozinka",
+                    "Nova lozinka je obavezna.");
 
             if (string.IsNullOrWhiteSpace(potvrdaLozinke))
-                ModelState.AddModelError("potvrdaLozinke", "Potvrda nove lozinke je obavezna.");
+                ModelState.AddModelError(
+                    "potvrdaLozinke",
+                    "Potvrda nove lozinke je obavezna.");
 
             if (!string.IsNullOrWhiteSpace(novaLozinka) &&
                 !string.IsNullOrWhiteSpace(potvrdaLozinke) &&
                 novaLozinka != potvrdaLozinke)
             {
-                ModelState.AddModelError("potvrdaLozinke", "Lozinke se ne podudaraju.");
+                ModelState.AddModelError(
+                    "potvrdaLozinke",
+                    "Lozinke se ne podudaraju.");
             }
 
             if (!ModelState.IsValid)
@@ -316,8 +342,7 @@ namespace PametniParkingSistem.Controllers
             var result = await _userManager.ChangePasswordAsync(
                 korisnik,
                 trenutnaLozinka!,
-                novaLozinka!
-            );
+                novaLozinka!);
 
             if (result.Succeeded)
             {
@@ -329,7 +354,8 @@ namespace PametniParkingSistem.Controllers
 
             foreach (var error in result.Errors)
             {
-                ModelState.AddModelError(string.Empty, PrevediIdentityGresku(error));
+                ModelState.AddModelError(
+                    string.Empty, PrevediIdentityGresku(error));
             }
 
             return View();
@@ -374,6 +400,7 @@ namespace PametniParkingSistem.Controllers
             TempData["Success"] = "Korisnik je aktiviran.";
             return RedirectToAction(nameof(Index));
         }
+
         [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -386,8 +413,13 @@ namespace PametniParkingSistem.Controllers
 
             await _service.ObrisiNalogAsync(korisnikId);
 
-            return RedirectToAction(nameof(Profil));
+            await _signInManager.SignOutAsync();
+
+            TempData["Success"] = "Vaš nalog je uspješno obrisan.";
+
+            return RedirectToAction("Index", "Home");
         }
+
         private async Task<bool> KorisnikExists(string id)
         {
             return await _service.GetByIdAsync(id) != null;
@@ -397,27 +429,48 @@ namespace PametniParkingSistem.Controllers
         {
             return error.Code switch
             {
-                "DefaultError" => "Došlo je do greške. Pokušajte ponovo.",
-                "ConcurrencyFailure" => "Došlo je do konflikta pri spremanju podataka. Pokušajte ponovo.",
-                "PasswordMismatch" => "Trenutna lozinka nije ispravna.",
-                "InvalidToken" => "Token nije ispravan.",
-                "LoginAlreadyAssociated" => "Ova prijava je već povezana sa drugim korisnikom.",
-                "InvalidUserName" => "Korisničko ime nije ispravno.",
-                "InvalidEmail" => "Email adresa nije ispravna.",
-                "DuplicateUserName" => "Korisnik sa ovom email adresom već postoji.",
-                "DuplicateEmail" => "Korisnik sa ovom email adresom već postoji.",
-                "InvalidRoleName" => "Naziv uloge nije ispravan.",
-                "DuplicateRoleName" => "Ova uloga već postoji.",
-                "UserAlreadyHasPassword" => "Korisnik već ima postavljenu lozinku.",
-                "UserLockoutNotEnabled" => "Zaključavanje korisničkog naloga nije omogućeno.",
-                "UserAlreadyInRole" => "Korisnik već ima ovu ulogu.",
-                "UserNotInRole" => "Korisnik nema ovu ulogu.",
-                "PasswordTooShort" => "Lozinka mora imati najmanje 6 karaktera.",
-                "PasswordRequiresNonAlphanumeric" => "Lozinka mora sadržavati barem jedan specijalni znak.",
-                "PasswordRequiresDigit" => "Lozinka mora sadržavati barem jedan broj.",
-                "PasswordRequiresLower" => "Lozinka mora sadržavati barem jedno malo slovo.",
-                "PasswordRequiresUpper" => "Lozinka mora sadržavati barem jedno veliko slovo.",
-                _ => "Došlo je do greške. Provjerite unesene podatke i pokušajte ponovo."
+                "DefaultError" =>
+                    "Došlo je do greške. Pokušajte ponovo.",
+                "ConcurrencyFailure" =>
+                    "Došlo je do konflikta pri spremanju podataka. Pokušajte ponovo.",
+                "PasswordMismatch" =>
+                    "Trenutna lozinka nije ispravna.",
+                "InvalidToken" =>
+                    "Token nije ispravan.",
+                "LoginAlreadyAssociated" =>
+                    "Ova prijava je već povezana sa drugim korisnikom.",
+                "InvalidUserName" =>
+                    "Korisničko ime nije ispravno.",
+                "InvalidEmail" =>
+                    "Email adresa nije ispravna.",
+                "DuplicateUserName" =>
+                    "Korisnik sa ovom email adresom već postoji.",
+                "DuplicateEmail" =>
+                    "Korisnik sa ovom email adresom već postoji.",
+                "InvalidRoleName" =>
+                    "Naziv uloge nije ispravan.",
+                "DuplicateRoleName" =>
+                    "Ova uloga već postoji.",
+                "UserAlreadyHasPassword" =>
+                    "Korisnik već ima postavljenu lozinku.",
+                "UserLockoutNotEnabled" =>
+                    "Zaključavanje korisničkog naloga nije omogućeno.",
+                "UserAlreadyInRole" =>
+                    "Korisnik već ima ovu ulogu.",
+                "UserNotInRole" =>
+                    "Korisnik nema ovu ulogu.",
+                "PasswordTooShort" =>
+                    "Lozinka mora imati najmanje 6 karaktera.",
+                "PasswordRequiresNonAlphanumeric" =>
+                    "Lozinka mora sadržavati barem jedan specijalni znak.",
+                "PasswordRequiresDigit" =>
+                    "Lozinka mora sadržavati barem jedan broj.",
+                "PasswordRequiresLower" =>
+                    "Lozinka mora sadržavati barem jedno malo slovo.",
+                "PasswordRequiresUpper" =>
+                    "Lozinka mora sadržavati barem jedno veliko slovo.",
+                _ =>
+                    "Došlo je do greške. Provjerite unesene podatke i pokušajte ponovo."
             };
         }
     }
