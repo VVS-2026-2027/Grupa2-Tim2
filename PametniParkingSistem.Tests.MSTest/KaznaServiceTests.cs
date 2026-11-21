@@ -83,5 +83,34 @@ namespace PametniParkingSistem.Tests.MSTest
             // Assert
             Assert.AreEqual(50.0, rezultat);
         }
+
+        [TestMethod]
+        [DataRow(StatusRezervacije.Otkazana)]
+        [DataRow(StatusRezervacije.Kreirana)]
+        public void IzracunajKaznu_OtkazanaIliNezapocetaRezervacija_VracaNula(
+            StatusRezervacije status)
+        {
+            // Arrange
+            var service = new KaznaService();
+
+            var rezervacija = new Rezervacija
+            {
+                VrijemePocetka = new DateTime(2026, 11, 20, 10, 0, 0),
+                VrijemeKraja = new DateTime(2026, 11, 20, 12, 0, 0),
+                StatusRezervacije = status
+            };
+
+            var stvarnoVrijemeIzlaska =
+                new DateTime(2026, 11, 20, 15, 0, 0);
+
+            // Act
+            var rezultat = service.IzracunajKaznu(
+                rezervacija,
+                stvarnoVrijemeIzlaska);
+
+            // Assert
+            Assert.AreEqual(0.0, rezultat);
+        }
+
     }
 }
