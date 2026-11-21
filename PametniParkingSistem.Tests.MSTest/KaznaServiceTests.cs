@@ -112,5 +112,31 @@ namespace PametniParkingSistem.Tests.MSTest
             Assert.AreEqual(0.0, rezultat);
         }
 
+        [TestMethod]
+        [DataRow(-1)]
+        [DataRow(-60)]
+        public void IzracunajKaznu_KrajPrijePocetka_BacaArgumentException(
+    int pomakKrajaUMinutama)
+        {
+            // Arrange
+            var service = new KaznaService();
+            var pocetak = new DateTime(2026, 11, 20, 10, 0, 0);
+
+            var rezervacija = new Rezervacija
+            {
+                VrijemePocetka = pocetak,
+                VrijemeKraja = pocetak.AddMinutes(pomakKrajaUMinutama),
+                StatusRezervacije = StatusRezervacije.Aktivna
+            };
+
+            var stvarnoVrijemeIzlaska = pocetak.AddHours(1);
+
+            // Act i Assert
+            Assert.Throws<ArgumentException>(() =>
+                service.IzracunajKaznu(
+                    rezervacija,
+                    stvarnoVrijemeIzlaska));
+        }
+
     }
 }
