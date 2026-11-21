@@ -1,5 +1,4 @@
-﻿
-using PametniParkingSistem.Enums;
+﻿using PametniParkingSistem.Enums;
 using PametniParkingSistem.Models;
 using PametniParkingSistem.Services.Interfaces;
 
@@ -15,6 +14,13 @@ namespace PametniParkingSistem.Services
             Rezervacija rezervacija,
             DateTime stvarnoVrijemeIzlaska)
         {
+            if (rezervacija.VrijemeKraja < rezervacija.VrijemePocetka)
+            {
+                throw new ArgumentException(
+                    "Vrijeme završetka rezervacije ne može biti prije vremena početka.",
+                    nameof(rezervacija));
+            }
+
             if (RezervacijaBezKazne(rezervacija))
             {
                 return 0;
@@ -28,10 +34,12 @@ namespace PametniParkingSistem.Services
                 return 0;
             }
 
-            var prekoracenje = stvarnoVrijemeIzlaska - rezervacija.VrijemeKraja;
-            var zapocetiSati = Math.Ceiling(prekoracenje.TotalHours);
+            var prekoracenje =
+                stvarnoVrijemeIzlaska - rezervacija.VrijemeKraja;
 
+            var zapocetiSati = Math.Ceiling(prekoracenje.TotalHours);
             var kazna = zapocetiSati * CijenaPoZapocetomSatu;
+
             return Math.Min(kazna, MaksimalnaKazna);
         }
 
