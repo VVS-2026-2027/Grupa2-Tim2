@@ -413,6 +413,11 @@ namespace PametniParkingSistem.Controllers
 
             await _service.ObrisiNalogAsync(korisnikId);
 
+            return await ZavrsiBrisanjeNalogaAsync();
+        }
+
+        private async Task<IActionResult> ZavrsiBrisanjeNalogaAsync()
+        {
             await _signInManager.SignOutAsync();
 
             TempData["Success"] = "Vaš nalog je uspješno obrisan.";
@@ -442,7 +447,7 @@ namespace PametniParkingSistem.Controllers
                 "InvalidUserName" =>
                     "Korisničko ime nije ispravno.",
                 "InvalidEmail" =>
-                    "Email adresa nije ispravna.",
+     "Email adresa nije ispravna.",
                 "DuplicateUserName" =>
                     "Korisnik sa ovom email adresom već postoji.",
                 "DuplicateEmail" =>
