@@ -42,7 +42,10 @@ public class ObrisiNalogTests
         await service.ObrisiNalogAsync("1");
 
         // Assert
-        Assert.AreEqual(0, await context.Users.CountAsync());
+        var korisnik = await context.Users.FindAsync("1");
+
+        Assert.IsNotNull(korisnik);
+        Assert.AreEqual(StatusNaloga.Deaktiviran, korisnik.StatusNaloga);
     }
 
     [TestMethod]

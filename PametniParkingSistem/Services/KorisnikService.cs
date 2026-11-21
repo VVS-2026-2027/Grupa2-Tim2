@@ -39,7 +39,7 @@ namespace PametniParkingSistem.Services
         }
         public async Task ObrisiNalogAsync(string korisnikId)
         {
-            await _repository.DeleteAsync(korisnikId);
+            await _repository.AnonimizujNalogAsync(korisnikId);
         }
     }
 }

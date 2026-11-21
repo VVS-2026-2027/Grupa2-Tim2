@@ -40,6 +40,7 @@ namespace PametniParkingSistem.Repositories
             await _context.SaveChangesAsync();
         }
 
+
         public async Task DeleteAsync(string id)
         {
             var korisnik = await _context.Users.FindAsync(id);
@@ -57,6 +58,34 @@ namespace PametniParkingSistem.Repositories
             _context.Users.Remove(korisnik);
             await _context.SaveChangesAsync();
         }
+
+        public async Task AnonimizujNalogAsync(string korisnikId)
+        {
+            var korisnik = await _context.Users.FindAsync(korisnikId);
+
+            if (korisnik == null)
+            {
+                throw new InvalidOperationException(KorisnikNePostojiPoruka);
+            }
+
+            if (await ImaAktivneRezervacijeAsync(korisnikId))
+            {
+                throw new InvalidOperationException(AktivneRezervacijePoruka);
+            }
+
+            korisnik.Ime = "Anonimni";
+            korisnik.Prezime = "Korisnik";
+            korisnik.UserName = $"obrisan_{korisnik.Id}";
+            korisnik.NormalizedUserName = korisnik.UserName.ToUpperInvariant();
+            korisnik.Email = null;
+            korisnik.NormalizedEmail = null;
+            korisnik.PhoneNumber = null;
+            korisnik.ProfilnaSlikaUrl = null;
+            korisnik.StatusNaloga = StatusNaloga.Deaktiviran;
+
+            await _context.SaveChangesAsync();
+        }
+
 
         private Task<bool> ImaAktivneRezervacijeAsync(string korisnikId)
         {

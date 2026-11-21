@@ -9,5 +9,6 @@ namespace PametniParkingSistem.Repositories
         Task AddAsync(Korisnik korisnik);
         Task UpdateAsync(Korisnik korisnik);
         Task DeleteAsync(string id);
+        Task AnonimizujNalogAsync(string korisnikId);
     }
 }
