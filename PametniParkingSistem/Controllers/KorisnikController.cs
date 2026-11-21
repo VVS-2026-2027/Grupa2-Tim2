@@ -374,7 +374,20 @@ namespace PametniParkingSistem.Controllers
             TempData["Success"] = "Korisnik je aktiviran.";
             return RedirectToAction(nameof(Index));
         }
+        [Authorize]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ObrisiNalog()
+        {
+            var korisnikId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
+            if (korisnikId == null)
+                return Unauthorized();
+
+            await _service.ObrisiNalogAsync(korisnikId);
+
+            return RedirectToAction(nameof(Profil));
+        }
         private async Task<bool> KorisnikExists(string id)
         {
             return await _service.GetByIdAsync(id) != null;
