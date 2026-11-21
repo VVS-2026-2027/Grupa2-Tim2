@@ -15,8 +15,7 @@ namespace PametniParkingSistem.Services
             Rezervacija rezervacija,
             DateTime stvarnoVrijemeIzlaska)
         {
-            if (rezervacija.StatusRezervacije == StatusRezervacije.Otkazana ||
-                rezervacija.StatusRezervacije == StatusRezervacije.Kreirana)
+            if (RezervacijaBezKazne(rezervacija))
             {
                 return 0;
             }
@@ -34,6 +33,12 @@ namespace PametniParkingSistem.Services
 
             var kazna = zapocetiSati * CijenaPoZapocetomSatu;
             return Math.Min(kazna, MaksimalnaKazna);
+        }
+
+        private static bool RezervacijaBezKazne(Rezervacija rezervacija)
+        {
+            return rezervacija.StatusRezervacije == StatusRezervacije.Otkazana ||
+                   rezervacija.StatusRezervacije == StatusRezervacije.Kreirana;
         }
     }
 }
