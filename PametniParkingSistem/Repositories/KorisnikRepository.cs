@@ -59,6 +59,7 @@ namespace PametniParkingSistem.Repositories
             await _context.SaveChangesAsync();
         }
 
+
         public async Task AnonimizujNalogAsync(string korisnikId)
         {
             var korisnik = await _context.Users.FindAsync(korisnikId);
@@ -73,6 +74,14 @@ namespace PametniParkingSistem.Repositories
                 throw new InvalidOperationException(AktivneRezervacijePoruka);
             }
 
+            AnonimizujKorisnika(korisnik);
+
+            await _context.SaveChangesAsync();
+        }
+
+
+        private static void AnonimizujKorisnika(Korisnik korisnik)
+        {
             korisnik.Ime = "Anonimni";
             korisnik.Prezime = "Korisnik";
             korisnik.UserName = $"obrisan_{korisnik.Id}";
@@ -82,8 +91,6 @@ namespace PametniParkingSistem.Repositories
             korisnik.PhoneNumber = null;
             korisnik.ProfilnaSlikaUrl = null;
             korisnik.StatusNaloga = StatusNaloga.Deaktiviran;
-
-            await _context.SaveChangesAsync();
         }
 
 
